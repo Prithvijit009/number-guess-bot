@@ -1,0 +1,35 @@
+{
+    "6458465484": {
+        "in_game": false,
+        "games_played": 2,
+        "wins": 2,
+        "attempts": 7,
+        "points": 7,
+        "hint_used": true,
+        "achievements": [],
+        "coins": 7,
+        "current_number": 25
+    },
+    "6023328067": {
+        "in_game": true,
+        "games_played": 2,
+        "wins": 1,
+        "attempts": 2,
+        "points": 5,
+        "hint_used": false,
+        "achievements": [],
+        "coins": 5,
+        "current_number": 38
+    },
+    "7991059234": {
+        "games_played": 1,
+        "wins": 1,
+        "current_number": 75,
+        "in_game": false,
+        "points": 3,
+        "achievements": [],
+        "coins": 3,
+        "attempts": 7,
+        "hint_used": false
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "global_leaderboard": [
+        {
+            "user_id": "6023328067",
+            "score": 5
+        },
+        {
+            "user_id": "6458465484",
+            "score": 4
+        },
+        {
+            "user_id": "6458465484",
+            "score": 3
+        },
+        {
+            "user_id": "7991059234",
+            "score": 3
+        }
+    ],
+    "global_weekly_leaderboard": [
+        {
+            "user_id": "6023328067",
+            "score": 5
+        },
+        {
+            "user_id": "6458465484",
+            "score": 4
+        },
+        {
+            "user_id": "6458465484",
+            "score": 3
+        },
+        {
+            "user_id": "7991059234",
+            "score": 3
+        }
+    ],
+    "global_monthly_leaderboard": [
+        {
+            "user_id": "6023328067",
+            "score": 5
+        },
+        {
+            "user_id": "6458465484",
+            "score": 4
+        },
+        {
+            "user_id": "6458465484",
+            "score": 3
+        },
+        {
+            "user_id": "7991059234",
+            "score": 3
+        }
+    ],
+    "group_leaderboards": {
+        "group_id_1": {
+            "weekly": [],
+            "monthly": [],
+            "top_10": []
+        },
+        "group_id_2": {
+            "weekly": [],
+            "monthly": [],
+            "top_10": []
+        },
+        "-1002145615969": {
+            "weekly": [
+                {
+                    "user_id": "6023328067",
+                    "score": 5
+                },
+                {
+                    "user_id": "6458465484",
+                    "score": 4
+                },
+                {
+                    "user_id": "6458465484",
+                    "score": 3
+                }
+            ],
+            "monthly": [
+                {
+                    "user_id": "6023328067",
+                    "score": 5
+                },
+                {
+                    "user_id": "6458465484",
+                    "score": 4
+                },
+                {
+                    "user_id": "6458465484",
+                    "score": 3
+                }
+            ],
+            "top_10": [
+                {
+                    "user_id": "6023328067",
+                    "score": 5
+                },
+                {
+                    "user_id": "6023328067",
+                    "score": 5
+                },
+                {
+                    "user_id": "6458465484",
+                    "score": 4
+                },
+                {
+                    "user_id": "6458465484",
+                    "score": 4
+                },
+                {
+                    "user_id": "6458465484",
+                    "score": 3
+                },
+                {
+                    "user_id": "6458465484",
+                    "score": 3
+                }
+            ]
+        }
+    }
+}

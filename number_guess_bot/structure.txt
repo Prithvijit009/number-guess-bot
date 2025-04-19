@@ -1,0 +1,4431 @@
+Folder PATH listing for volume OS
+Volume serial number is CCD1-BC02
+C:.
+¦   .env
+¦   constants.py
+¦   main.py
+¦   players.json
+¦   requirements.txt
+¦   structure.txt
+¦   
++---data
+¦       data.json
+¦       players.json
+¦       
++---handlers
+¦   ¦   about.py
+¦   ¦   achievements.py
+¦   ¦   guess.py
+¦   ¦   hint.py
+¦   ¦   leaderboard.py
+¦   ¦   start.py
+¦   ¦   stats.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           about.cpython-311.pyc
+¦           achievements.cpython-311.pyc
+¦           guess.cpython-311.pyc
+¦           hint.cpython-311.pyc
+¦           start.cpython-311.pyc
+¦           stats.cpython-311.pyc
+¦           __init__.cpython-311.pyc
+¦           
++---utils
+¦   ¦   achievements.py
+¦   ¦   game_data.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           achievements.cpython-311.pyc
+¦           game_data.cpython-311.pyc
+¦           leaderboard.json
+¦           leaderboard_data.py
+¦           __init__.cpython-311.pyc
+¦           
++---venv
+¦   ¦   pyvenv.cfg
+¦   ¦   
+¦   +---Include
+¦   +---Lib
+¦   ¦   +---site-packages
+¦   ¦       ¦   distutils-precedence.pth
+¦   ¦       ¦   
+¦   ¦       +---aiogram
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---bot
+¦   ¦       ¦   ¦   ¦   api.py
+¦   ¦       ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   bot.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           api.cpython-311.pyc
+¦   ¦       ¦   ¦           base.cpython-311.pyc
+¦   ¦       ¦   ¦           bot.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---contrib
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---fsm_storage
+¦   ¦       ¦   ¦   ¦   ¦   files.py
+¦   ¦       ¦   ¦   ¦   ¦   memory.py
+¦   ¦       ¦   ¦   ¦   ¦   mongo.py
+¦   ¦       ¦   ¦   ¦   ¦   redis.py
+¦   ¦       ¦   ¦   ¦   ¦   rethinkdb.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           files.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           memory.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           mongo.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           redis.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           rethinkdb.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---middlewares
+¦   ¦       ¦   ¦   ¦   ¦   environment.py
+¦   ¦       ¦   ¦   ¦   ¦   fsm.py
+¦   ¦       ¦   ¦   ¦   ¦   i18n.py
+¦   ¦       ¦   ¦   ¦   ¦   logging.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           environment.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           fsm.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           i18n.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           logging.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---dispatcher
+¦   ¦       ¦   ¦   ¦   dispatcher.py
+¦   ¦       ¦   ¦   ¦   handler.py
+¦   ¦       ¦   ¦   ¦   middlewares.py
+¦   ¦       ¦   ¦   ¦   storage.py
+¦   ¦       ¦   ¦   ¦   webhook.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---filters
+¦   ¦       ¦   ¦   ¦   ¦   builtin.py
+¦   ¦       ¦   ¦   ¦   ¦   factory.py
+¦   ¦       ¦   ¦   ¦   ¦   filters.py
+¦   ¦       ¦   ¦   ¦   ¦   state.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           builtin.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           factory.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           filters.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           state.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           dispatcher.cpython-311.pyc
+¦   ¦       ¦   ¦           handler.cpython-311.pyc
+¦   ¦       ¦   ¦           middlewares.cpython-311.pyc
+¦   ¦       ¦   ¦           storage.cpython-311.pyc
+¦   ¦       ¦   ¦           webhook.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---types
+¦   ¦       ¦   ¦   ¦   animation.py
+¦   ¦       ¦   ¦   ¦   audio.py
+¦   ¦       ¦   ¦   ¦   auth_widget_data.py
+¦   ¦       ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   bot_command.py
+¦   ¦       ¦   ¦   ¦   bot_command_scope.py
+¦   ¦       ¦   ¦   ¦   callback_game.py
+¦   ¦       ¦   ¦   ¦   callback_query.py
+¦   ¦       ¦   ¦   ¦   chat.py
+¦   ¦       ¦   ¦   ¦   chat_administrator_rights.py
+¦   ¦       ¦   ¦   ¦   chat_invite_link.py
+¦   ¦       ¦   ¦   ¦   chat_join_request.py
+¦   ¦       ¦   ¦   ¦   chat_location.py
+¦   ¦       ¦   ¦   ¦   chat_member.py
+¦   ¦       ¦   ¦   ¦   chat_member_updated.py
+¦   ¦       ¦   ¦   ¦   chat_permissions.py
+¦   ¦       ¦   ¦   ¦   chat_photo.py
+¦   ¦       ¦   ¦   ¦   chat_shared.py
+¦   ¦       ¦   ¦   ¦   chosen_inline_result.py
+¦   ¦       ¦   ¦   ¦   contact.py
+¦   ¦       ¦   ¦   ¦   dice.py
+¦   ¦       ¦   ¦   ¦   document.py
+¦   ¦       ¦   ¦   ¦   encrypted_credentials.py
+¦   ¦       ¦   ¦   ¦   encrypted_passport_element.py
+¦   ¦       ¦   ¦   ¦   fields.py
+¦   ¦       ¦   ¦   ¦   file.py
+¦   ¦       ¦   ¦   ¦   force_reply.py
+¦   ¦       ¦   ¦   ¦   forum_topic.py
+¦   ¦       ¦   ¦   ¦   forum_topic_closed.py
+¦   ¦       ¦   ¦   ¦   forum_topic_created.py
+¦   ¦       ¦   ¦   ¦   forum_topic_edited.py
+¦   ¦       ¦   ¦   ¦   forum_topic_reopened.py
+¦   ¦       ¦   ¦   ¦   game.py
+¦   ¦       ¦   ¦   ¦   game_high_score.py
+¦   ¦       ¦   ¦   ¦   general_forum_topic_hidden.py
+¦   ¦       ¦   ¦   ¦   general_forum_topic_unhidden.py
+¦   ¦       ¦   ¦   ¦   inline_keyboard.py
+¦   ¦       ¦   ¦   ¦   inline_query.py
+¦   ¦       ¦   ¦   ¦   inline_query_result.py
+¦   ¦       ¦   ¦   ¦   input_file.py
+¦   ¦       ¦   ¦   ¦   input_media.py
+¦   ¦       ¦   ¦   ¦   input_message_content.py
+¦   ¦       ¦   ¦   ¦   invoice.py
+¦   ¦       ¦   ¦   ¦   labeled_price.py
+¦   ¦       ¦   ¦   ¦   location.py
+¦   ¦       ¦   ¦   ¦   login_url.py
+¦   ¦       ¦   ¦   ¦   mask_position.py
+¦   ¦       ¦   ¦   ¦   menu_button.py
+¦   ¦       ¦   ¦   ¦   message.py
+¦   ¦       ¦   ¦   ¦   message_auto_delete_timer_changed.py
+¦   ¦       ¦   ¦   ¦   message_entity.py
+¦   ¦       ¦   ¦   ¦   message_id.py
+¦   ¦       ¦   ¦   ¦   mixins.py
+¦   ¦       ¦   ¦   ¦   order_info.py
+¦   ¦       ¦   ¦   ¦   passport_data.py
+¦   ¦       ¦   ¦   ¦   passport_element_error.py
+¦   ¦       ¦   ¦   ¦   passport_file.py
+¦   ¦       ¦   ¦   ¦   photo_size.py
+¦   ¦       ¦   ¦   ¦   poll.py
+¦   ¦       ¦   ¦   ¦   pre_checkout_query.py
+¦   ¦       ¦   ¦   ¦   proximity_alert_triggered.py
+¦   ¦       ¦   ¦   ¦   reply_keyboard.py
+¦   ¦       ¦   ¦   ¦   response_parameters.py
+¦   ¦       ¦   ¦   ¦   sent_web_app_message.py
+¦   ¦       ¦   ¦   ¦   shipping_address.py
+¦   ¦       ¦   ¦   ¦   shipping_option.py
+¦   ¦       ¦   ¦   ¦   shipping_query.py
+¦   ¦       ¦   ¦   ¦   sticker.py
+¦   ¦       ¦   ¦   ¦   sticker_set.py
+¦   ¦       ¦   ¦   ¦   successful_payment.py
+¦   ¦       ¦   ¦   ¦   update.py
+¦   ¦       ¦   ¦   ¦   user.py
+¦   ¦       ¦   ¦   ¦   user_profile_photos.py
+¦   ¦       ¦   ¦   ¦   user_shared.py
+¦   ¦       ¦   ¦   ¦   venue.py
+¦   ¦       ¦   ¦   ¦   video.py
+¦   ¦       ¦   ¦   ¦   video_chat_ended.py
+¦   ¦       ¦   ¦   ¦   video_chat_participants_invited.py
+¦   ¦       ¦   ¦   ¦   video_chat_scheduled.py
+¦   ¦       ¦   ¦   ¦   video_chat_started.py
+¦   ¦       ¦   ¦   ¦   video_note.py
+¦   ¦       ¦   ¦   ¦   voice.py
+¦   ¦       ¦   ¦   ¦   voice_chat_ended.py
+¦   ¦       ¦   ¦   ¦   voice_chat_participants_invited.py
+¦   ¦       ¦   ¦   ¦   voice_chat_scheduled.py
+¦   ¦       ¦   ¦   ¦   voice_chat_started.py
+¦   ¦       ¦   ¦   ¦   webhook_info.py
+¦   ¦       ¦   ¦   ¦   web_app_data.py
+¦   ¦       ¦   ¦   ¦   web_app_info.py
+¦   ¦       ¦   ¦   ¦   write_access_allowed.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           animation.cpython-311.pyc
+¦   ¦       ¦   ¦           audio.cpython-311.pyc
+¦   ¦       ¦   ¦           auth_widget_data.cpython-311.pyc
+¦   ¦       ¦   ¦           base.cpython-311.pyc
+¦   ¦       ¦   ¦           bot_command.cpython-311.pyc
+¦   ¦       ¦   ¦           bot_command_scope.cpython-311.pyc
+¦   ¦       ¦   ¦           callback_game.cpython-311.pyc
+¦   ¦       ¦   ¦           callback_query.cpython-311.pyc
+¦   ¦       ¦   ¦           chat.cpython-311.pyc
+¦   ¦       ¦   ¦           chat_administrator_rights.cpython-311.pyc
+¦   ¦       ¦   ¦           chat_invite_link.cpython-311.pyc
+¦   ¦       ¦   ¦           chat_join_request.cpython-311.pyc
+¦   ¦       ¦   ¦           chat_location.cpython-311.pyc
+¦   ¦       ¦   ¦           chat_member.cpython-311.pyc
+¦   ¦       ¦   ¦           chat_member_updated.cpython-311.pyc
+¦   ¦       ¦   ¦           chat_permissions.cpython-311.pyc
+¦   ¦       ¦   ¦           chat_photo.cpython-311.pyc
+¦   ¦       ¦   ¦           chat_shared.cpython-311.pyc
+¦   ¦       ¦   ¦           chosen_inline_result.cpython-311.pyc
+¦   ¦       ¦   ¦           contact.cpython-311.pyc
+¦   ¦       ¦   ¦           dice.cpython-311.pyc
+¦   ¦       ¦   ¦           document.cpython-311.pyc
+¦   ¦       ¦   ¦           encrypted_credentials.cpython-311.pyc
+¦   ¦       ¦   ¦           encrypted_passport_element.cpython-311.pyc
+¦   ¦       ¦   ¦           fields.cpython-311.pyc
+¦   ¦       ¦   ¦           file.cpython-311.pyc
+¦   ¦       ¦   ¦           force_reply.cpython-311.pyc
+¦   ¦       ¦   ¦           forum_topic.cpython-311.pyc
+¦   ¦       ¦   ¦           forum_topic_closed.cpython-311.pyc
+¦   ¦       ¦   ¦           forum_topic_created.cpython-311.pyc
+¦   ¦       ¦   ¦           forum_topic_edited.cpython-311.pyc
+¦   ¦       ¦   ¦           forum_topic_reopened.cpython-311.pyc
+¦   ¦       ¦   ¦           game.cpython-311.pyc
+¦   ¦       ¦   ¦           game_high_score.cpython-311.pyc
+¦   ¦       ¦   ¦           general_forum_topic_hidden.cpython-311.pyc
+¦   ¦       ¦   ¦           general_forum_topic_unhidden.cpython-311.pyc
+¦   ¦       ¦   ¦           inline_keyboard.cpython-311.pyc
+¦   ¦       ¦   ¦           inline_query.cpython-311.pyc
+¦   ¦       ¦   ¦           inline_query_result.cpython-311.pyc
+¦   ¦       ¦   ¦           input_file.cpython-311.pyc
+¦   ¦       ¦   ¦           input_media.cpython-311.pyc
+¦   ¦       ¦   ¦           input_message_content.cpython-311.pyc
+¦   ¦       ¦   ¦           invoice.cpython-311.pyc
+¦   ¦       ¦   ¦           labeled_price.cpython-311.pyc
+¦   ¦       ¦   ¦           location.cpython-311.pyc
+¦   ¦       ¦   ¦           login_url.cpython-311.pyc
+¦   ¦       ¦   ¦           mask_position.cpython-311.pyc
+¦   ¦       ¦   ¦           menu_button.cpython-311.pyc
+¦   ¦       ¦   ¦           message.cpython-311.pyc
+¦   ¦       ¦   ¦           message_auto_delete_timer_changed.cpython-311.pyc
+¦   ¦       ¦   ¦           message_entity.cpython-311.pyc
+¦   ¦       ¦   ¦           message_id.cpython-311.pyc
+¦   ¦       ¦   ¦           mixins.cpython-311.pyc
+¦   ¦       ¦   ¦           order_info.cpython-311.pyc
+¦   ¦       ¦   ¦           passport_data.cpython-311.pyc
+¦   ¦       ¦   ¦           passport_element_error.cpython-311.pyc
+¦   ¦       ¦   ¦           passport_file.cpython-311.pyc
+¦   ¦       ¦   ¦           photo_size.cpython-311.pyc
+¦   ¦       ¦   ¦           poll.cpython-311.pyc
+¦   ¦       ¦   ¦           pre_checkout_query.cpython-311.pyc
+¦   ¦       ¦   ¦           proximity_alert_triggered.cpython-311.pyc
+¦   ¦       ¦   ¦           reply_keyboard.cpython-311.pyc
+¦   ¦       ¦   ¦           response_parameters.cpython-311.pyc
+¦   ¦       ¦   ¦           sent_web_app_message.cpython-311.pyc
+¦   ¦       ¦   ¦           shipping_address.cpython-311.pyc
+¦   ¦       ¦   ¦           shipping_option.cpython-311.pyc
+¦   ¦       ¦   ¦           shipping_query.cpython-311.pyc
+¦   ¦       ¦   ¦           sticker.cpython-311.pyc
+¦   ¦       ¦   ¦           sticker_set.cpython-311.pyc
+¦   ¦       ¦   ¦           successful_payment.cpython-311.pyc
+¦   ¦       ¦   ¦           update.cpython-311.pyc
+¦   ¦       ¦   ¦           user.cpython-311.pyc
+¦   ¦       ¦   ¦           user_profile_photos.cpython-311.pyc
+¦   ¦       ¦   ¦           user_shared.cpython-311.pyc
+¦   ¦       ¦   ¦           venue.cpython-311.pyc
+¦   ¦       ¦   ¦           video.cpython-311.pyc
+¦   ¦       ¦   ¦           video_chat_ended.cpython-311.pyc
+¦   ¦       ¦   ¦           video_chat_participants_invited.cpython-311.pyc
+¦   ¦       ¦   ¦           video_chat_scheduled.cpython-311.pyc
+¦   ¦       ¦   ¦           video_chat_started.cpython-311.pyc
+¦   ¦       ¦   ¦           video_note.cpython-311.pyc
+¦   ¦       ¦   ¦           voice.cpython-311.pyc
+¦   ¦       ¦   ¦           voice_chat_ended.cpython-311.pyc
+¦   ¦       ¦   ¦           voice_chat_participants_invited.cpython-311.pyc
+¦   ¦       ¦   ¦           voice_chat_scheduled.cpython-311.pyc
+¦   ¦       ¦   ¦           voice_chat_started.cpython-311.pyc
+¦   ¦       ¦   ¦           webhook_info.cpython-311.pyc
+¦   ¦       ¦   ¦           web_app_data.cpython-311.pyc
+¦   ¦       ¦   ¦           web_app_info.cpython-311.pyc
+¦   ¦       ¦   ¦           write_access_allowed.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---utils
+¦   ¦       ¦   ¦   ¦   auth_widget.py
+¦   ¦       ¦   ¦   ¦   callback_data.py
+¦   ¦       ¦   ¦   ¦   deep_linking.py
+¦   ¦       ¦   ¦   ¦   deprecated.py
+¦   ¦       ¦   ¦   ¦   emoji.py
+¦   ¦       ¦   ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   ¦   executor.py
+¦   ¦       ¦   ¦   ¦   helper.py
+¦   ¦       ¦   ¦   ¦   json.py
+¦   ¦       ¦   ¦   ¦   markdown.py
+¦   ¦       ¦   ¦   ¦   mixins.py
+¦   ¦       ¦   ¦   ¦   parts.py
+¦   ¦       ¦   ¦   ¦   payload.py
+¦   ¦       ¦   ¦   ¦   text_decorations.py
+¦   ¦       ¦   ¦   ¦   web_app.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           auth_widget.cpython-311.pyc
+¦   ¦       ¦   ¦           callback_data.cpython-311.pyc
+¦   ¦       ¦   ¦           deep_linking.cpython-311.pyc
+¦   ¦       ¦   ¦           deprecated.cpython-311.pyc
+¦   ¦       ¦   ¦           emoji.cpython-311.pyc
+¦   ¦       ¦   ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦           executor.cpython-311.pyc
+¦   ¦       ¦   ¦           helper.cpython-311.pyc
+¦   ¦       ¦   ¦           json.cpython-311.pyc
+¦   ¦       ¦   ¦           markdown.cpython-311.pyc
+¦   ¦       ¦   ¦           mixins.cpython-311.pyc
+¦   ¦       ¦   ¦           parts.cpython-311.pyc
+¦   ¦       ¦   ¦           payload.cpython-311.pyc
+¦   ¦       ¦   ¦           text_decorations.cpython-311.pyc
+¦   ¦       ¦   ¦           web_app.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           __main__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---aiogram-2.25.2.dist-info
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       REQUESTED
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---aiohttp
+¦   ¦       ¦   ¦   abc.py
+¦   ¦       ¦   ¦   base_protocol.py
+¦   ¦       ¦   ¦   client.py
+¦   ¦       ¦   ¦   client_exceptions.py
+¦   ¦       ¦   ¦   client_proto.py
+¦   ¦       ¦   ¦   client_reqrep.py
+¦   ¦       ¦   ¦   client_ws.py
+¦   ¦       ¦   ¦   connector.py
+¦   ¦       ¦   ¦   cookiejar.py
+¦   ¦       ¦   ¦   formdata.py
+¦   ¦       ¦   ¦   hdrs.py
+¦   ¦       ¦   ¦   helpers.py
+¦   ¦       ¦   ¦   http.py
+¦   ¦       ¦   ¦   http_exceptions.py
+¦   ¦       ¦   ¦   http_parser.py
+¦   ¦       ¦   ¦   http_websocket.py
+¦   ¦       ¦   ¦   http_writer.py
+¦   ¦       ¦   ¦   locks.py
+¦   ¦       ¦   ¦   log.py
+¦   ¦       ¦   ¦   multipart.py
+¦   ¦       ¦   ¦   payload.py
+¦   ¦       ¦   ¦   payload_streamer.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   pytest_plugin.py
+¦   ¦       ¦   ¦   resolver.py
+¦   ¦       ¦   ¦   streams.py
+¦   ¦       ¦   ¦   tcp_helpers.py
+¦   ¦       ¦   ¦   test_utils.py
+¦   ¦       ¦   ¦   tracing.py
+¦   ¦       ¦   ¦   typedefs.py
+¦   ¦       ¦   ¦   web.py
+¦   ¦       ¦   ¦   web_app.py
+¦   ¦       ¦   ¦   web_exceptions.py
+¦   ¦       ¦   ¦   web_fileresponse.py
+¦   ¦       ¦   ¦   web_log.py
+¦   ¦       ¦   ¦   web_middlewares.py
+¦   ¦       ¦   ¦   web_protocol.py
+¦   ¦       ¦   ¦   web_request.py
+¦   ¦       ¦   ¦   web_response.py
+¦   ¦       ¦   ¦   web_routedef.py
+¦   ¦       ¦   ¦   web_runner.py
+¦   ¦       ¦   ¦   web_server.py
+¦   ¦       ¦   ¦   web_urldispatcher.py
+¦   ¦       ¦   ¦   web_ws.py
+¦   ¦       ¦   ¦   worker.py
+¦   ¦       ¦   ¦   _cparser.pxd
+¦   ¦       ¦   ¦   _find_header.pxd
+¦   ¦       ¦   ¦   _headers.pxi
+¦   ¦       ¦   ¦   _helpers.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   _helpers.pyi
+¦   ¦       ¦   ¦   _helpers.pyx
+¦   ¦       ¦   ¦   _http_parser.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   _http_parser.pyx
+¦   ¦       ¦   ¦   _http_writer.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   _http_writer.pyx
+¦   ¦       ¦   ¦   _websocket.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   _websocket.pyx
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---.hash
+¦   ¦       ¦   ¦       hdrs.py.hash
+¦   ¦       ¦   ¦       _cparser.pxd.hash
+¦   ¦       ¦   ¦       _find_header.pxd.hash
+¦   ¦       ¦   ¦       _helpers.pyi.hash
+¦   ¦       ¦   ¦       _helpers.pyx.hash
+¦   ¦       ¦   ¦       _http_parser.pyx.hash
+¦   ¦       ¦   ¦       _http_writer.pyx.hash
+¦   ¦       ¦   ¦       _websocket.pyx.hash
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           abc.cpython-311.pyc
+¦   ¦       ¦           base_protocol.cpython-311.pyc
+¦   ¦       ¦           client.cpython-311.pyc
+¦   ¦       ¦           client_exceptions.cpython-311.pyc
+¦   ¦       ¦           client_proto.cpython-311.pyc
+¦   ¦       ¦           client_reqrep.cpython-311.pyc
+¦   ¦       ¦           client_ws.cpython-311.pyc
+¦   ¦       ¦           connector.cpython-311.pyc
+¦   ¦       ¦           cookiejar.cpython-311.pyc
+¦   ¦       ¦           formdata.cpython-311.pyc
+¦   ¦       ¦           hdrs.cpython-311.pyc
+¦   ¦       ¦           helpers.cpython-311.pyc
+¦   ¦       ¦           http.cpython-311.pyc
+¦   ¦       ¦           http_exceptions.cpython-311.pyc
+¦   ¦       ¦           http_parser.cpython-311.pyc
+¦   ¦       ¦           http_websocket.cpython-311.pyc
+¦   ¦       ¦           http_writer.cpython-311.pyc
+¦   ¦       ¦           locks.cpython-311.pyc
+¦   ¦       ¦           log.cpython-311.pyc
+¦   ¦       ¦           multipart.cpython-311.pyc
+¦   ¦       ¦           payload.cpython-311.pyc
+¦   ¦       ¦           payload_streamer.cpython-311.pyc
+¦   ¦       ¦           pytest_plugin.cpython-311.pyc
+¦   ¦       ¦           resolver.cpython-311.pyc
+¦   ¦       ¦           streams.cpython-311.pyc
+¦   ¦       ¦           tcp_helpers.cpython-311.pyc
+¦   ¦       ¦           test_utils.cpython-311.pyc
+¦   ¦       ¦           tracing.cpython-311.pyc
+¦   ¦       ¦           typedefs.cpython-311.pyc
+¦   ¦       ¦           web.cpython-311.pyc
+¦   ¦       ¦           web_app.cpython-311.pyc
+¦   ¦       ¦           web_exceptions.cpython-311.pyc
+¦   ¦       ¦           web_fileresponse.cpython-311.pyc
+¦   ¦       ¦           web_log.cpython-311.pyc
+¦   ¦       ¦           web_middlewares.cpython-311.pyc
+¦   ¦       ¦           web_protocol.cpython-311.pyc
+¦   ¦       ¦           web_request.cpython-311.pyc
+¦   ¦       ¦           web_response.cpython-311.pyc
+¦   ¦       ¦           web_routedef.cpython-311.pyc
+¦   ¦       ¦           web_runner.cpython-311.pyc
+¦   ¦       ¦           web_server.cpython-311.pyc
+¦   ¦       ¦           web_urldispatcher.cpython-311.pyc
+¦   ¦       ¦           web_ws.cpython-311.pyc
+¦   ¦       ¦           worker.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---aiohttp-3.8.6.dist-info
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE.txt
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---aiosignal
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   __init__.pyi
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---aiosignal-1.3.2.dist-info
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---async_timeout
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---async_timeout-4.0.3.dist-info
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       zip-safe
+¦   ¦       ¦       
+¦   ¦       +---attr
+¦   ¦       ¦   ¦   converters.py
+¦   ¦       ¦   ¦   converters.pyi
+¦   ¦       ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   exceptions.pyi
+¦   ¦       ¦   ¦   filters.py
+¦   ¦       ¦   ¦   filters.pyi
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   setters.py
+¦   ¦       ¦   ¦   setters.pyi
+¦   ¦       ¦   ¦   validators.py
+¦   ¦       ¦   ¦   validators.pyi
+¦   ¦       ¦   ¦   _cmp.py
+¦   ¦       ¦   ¦   _cmp.pyi
+¦   ¦       ¦   ¦   _compat.py
+¦   ¦       ¦   ¦   _config.py
+¦   ¦       ¦   ¦   _funcs.py
+¦   ¦       ¦   ¦   _make.py
+¦   ¦       ¦   ¦   _next_gen.py
+¦   ¦       ¦   ¦   _typing_compat.pyi
+¦   ¦       ¦   ¦   _version_info.py
+¦   ¦       ¦   ¦   _version_info.pyi
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   __init__.pyi
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           converters.cpython-311.pyc
+¦   ¦       ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦           filters.cpython-311.pyc
+¦   ¦       ¦           setters.cpython-311.pyc
+¦   ¦       ¦           validators.cpython-311.pyc
+¦   ¦       ¦           _cmp.cpython-311.pyc
+¦   ¦       ¦           _compat.cpython-311.pyc
+¦   ¦       ¦           _config.cpython-311.pyc
+¦   ¦       ¦           _funcs.cpython-311.pyc
+¦   ¦       ¦           _make.cpython-311.pyc
+¦   ¦       ¦           _next_gen.cpython-311.pyc
+¦   ¦       ¦           _version_info.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---attrs
+¦   ¦       ¦   ¦   converters.py
+¦   ¦       ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   filters.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   setters.py
+¦   ¦       ¦   ¦   validators.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   __init__.pyi
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           converters.cpython-311.pyc
+¦   ¦       ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦           filters.cpython-311.pyc
+¦   ¦       ¦           setters.cpython-311.pyc
+¦   ¦       ¦           validators.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---attrs-25.3.0.dist-info
+¦   ¦       ¦   ¦   INSTALLER
+¦   ¦       ¦   ¦   METADATA
+¦   ¦       ¦   ¦   RECORD
+¦   ¦       ¦   ¦   WHEEL
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---licenses
+¦   ¦       ¦           LICENSE
+¦   ¦       ¦           
+¦   ¦       +---babel
+¦   ¦       ¦   ¦   core.py
+¦   ¦       ¦   ¦   dates.py
+¦   ¦       ¦   ¦   global.dat
+¦   ¦       ¦   ¦   languages.py
+¦   ¦       ¦   ¦   lists.py
+¦   ¦       ¦   ¦   localedata.py
+¦   ¦       ¦   ¦   numbers.py
+¦   ¦       ¦   ¦   plural.py
+¦   ¦       ¦   ¦   support.py
+¦   ¦       ¦   ¦   units.py
+¦   ¦       ¦   ¦   util.py
+¦   ¦       ¦   ¦   _compat.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---locale-data
+¦   ¦       ¦   ¦       af.dat
+¦   ¦       ¦   ¦       af_NA.dat
+¦   ¦       ¦   ¦       af_ZA.dat
+¦   ¦       ¦   ¦       agq.dat
+¦   ¦       ¦   ¦       agq_CM.dat
+¦   ¦       ¦   ¦       ak.dat
+¦   ¦       ¦   ¦       ak_GH.dat
+¦   ¦       ¦   ¦       am.dat
+¦   ¦       ¦   ¦       am_ET.dat
+¦   ¦       ¦   ¦       ar.dat
+¦   ¦       ¦   ¦       ar_001.dat
+¦   ¦       ¦   ¦       ar_AE.dat
+¦   ¦       ¦   ¦       ar_BH.dat
+¦   ¦       ¦   ¦       ar_DJ.dat
+¦   ¦       ¦   ¦       ar_DZ.dat
+¦   ¦       ¦   ¦       ar_EG.dat
+¦   ¦       ¦   ¦       ar_EH.dat
+¦   ¦       ¦   ¦       ar_ER.dat
+¦   ¦       ¦   ¦       ar_IL.dat
+¦   ¦       ¦   ¦       ar_IQ.dat
+¦   ¦       ¦   ¦       ar_JO.dat
+¦   ¦       ¦   ¦       ar_KM.dat
+¦   ¦       ¦   ¦       ar_KW.dat
+¦   ¦       ¦   ¦       ar_LB.dat
+¦   ¦       ¦   ¦       ar_LY.dat
+¦   ¦       ¦   ¦       ar_MA.dat
+¦   ¦       ¦   ¦       ar_MR.dat
+¦   ¦       ¦   ¦       ar_OM.dat
+¦   ¦       ¦   ¦       ar_PS.dat
+¦   ¦       ¦   ¦       ar_QA.dat
+¦   ¦       ¦   ¦       ar_SA.dat
+¦   ¦       ¦   ¦       ar_SD.dat
+¦   ¦       ¦   ¦       ar_SO.dat
+¦   ¦       ¦   ¦       ar_SS.dat
+¦   ¦       ¦   ¦       ar_SY.dat
+¦   ¦       ¦   ¦       ar_TD.dat
+¦   ¦       ¦   ¦       ar_TN.dat
+¦   ¦       ¦   ¦       ar_YE.dat
+¦   ¦       ¦   ¦       as.dat
+¦   ¦       ¦   ¦       asa.dat
+¦   ¦       ¦   ¦       asa_TZ.dat
+¦   ¦       ¦   ¦       ast.dat
+¦   ¦       ¦   ¦       ast_ES.dat
+¦   ¦       ¦   ¦       as_IN.dat
+¦   ¦       ¦   ¦       az.dat
+¦   ¦       ¦   ¦       az_Cyrl.dat
+¦   ¦       ¦   ¦       az_Cyrl_AZ.dat
+¦   ¦       ¦   ¦       az_Latn.dat
+¦   ¦       ¦   ¦       az_Latn_AZ.dat
+¦   ¦       ¦   ¦       bas.dat
+¦   ¦       ¦   ¦       bas_CM.dat
+¦   ¦       ¦   ¦       be.dat
+¦   ¦       ¦   ¦       bem.dat
+¦   ¦       ¦   ¦       bem_ZM.dat
+¦   ¦       ¦   ¦       bez.dat
+¦   ¦       ¦   ¦       bez_TZ.dat
+¦   ¦       ¦   ¦       be_BY.dat
+¦   ¦       ¦   ¦       bg.dat
+¦   ¦       ¦   ¦       bg_BG.dat
+¦   ¦       ¦   ¦       bm.dat
+¦   ¦       ¦   ¦       bm_ML.dat
+¦   ¦       ¦   ¦       bn.dat
+¦   ¦       ¦   ¦       bn_BD.dat
+¦   ¦       ¦   ¦       bn_IN.dat
+¦   ¦       ¦   ¦       bo.dat
+¦   ¦       ¦   ¦       bo_CN.dat
+¦   ¦       ¦   ¦       bo_IN.dat
+¦   ¦       ¦   ¦       br.dat
+¦   ¦       ¦   ¦       brx.dat
+¦   ¦       ¦   ¦       brx_IN.dat
+¦   ¦       ¦   ¦       br_FR.dat
+¦   ¦       ¦   ¦       bs.dat
+¦   ¦       ¦   ¦       bs_Cyrl.dat
+¦   ¦       ¦   ¦       bs_Cyrl_BA.dat
+¦   ¦       ¦   ¦       bs_Latn.dat
+¦   ¦       ¦   ¦       bs_Latn_BA.dat
+¦   ¦       ¦   ¦       ca.dat
+¦   ¦       ¦   ¦       ca_AD.dat
+¦   ¦       ¦   ¦       ca_ES.dat
+¦   ¦       ¦   ¦       ca_ES_VALENCIA.dat
+¦   ¦       ¦   ¦       ca_FR.dat
+¦   ¦       ¦   ¦       ca_IT.dat
+¦   ¦       ¦   ¦       ccp.dat
+¦   ¦       ¦   ¦       ccp_BD.dat
+¦   ¦       ¦   ¦       ccp_IN.dat
+¦   ¦       ¦   ¦       ce.dat
+¦   ¦       ¦   ¦       ceb.dat
+¦   ¦       ¦   ¦       ceb_PH.dat
+¦   ¦       ¦   ¦       ce_RU.dat
+¦   ¦       ¦   ¦       cgg.dat
+¦   ¦       ¦   ¦       cgg_UG.dat
+¦   ¦       ¦   ¦       chr.dat
+¦   ¦       ¦   ¦       chr_US.dat
+¦   ¦       ¦   ¦       ckb.dat
+¦   ¦       ¦   ¦       ckb_IQ.dat
+¦   ¦       ¦   ¦       ckb_IR.dat
+¦   ¦       ¦   ¦       cs.dat
+¦   ¦       ¦   ¦       cs_CZ.dat
+¦   ¦       ¦   ¦       cu.dat
+¦   ¦       ¦   ¦       cu_RU.dat
+¦   ¦       ¦   ¦       cy.dat
+¦   ¦       ¦   ¦       cy_GB.dat
+¦   ¦       ¦   ¦       da.dat
+¦   ¦       ¦   ¦       dav.dat
+¦   ¦       ¦   ¦       dav_KE.dat
+¦   ¦       ¦   ¦       da_DK.dat
+¦   ¦       ¦   ¦       da_GL.dat
+¦   ¦       ¦   ¦       de.dat
+¦   ¦       ¦   ¦       de_AT.dat
+¦   ¦       ¦   ¦       de_BE.dat
+¦   ¦       ¦   ¦       de_CH.dat
+¦   ¦       ¦   ¦       de_DE.dat
+¦   ¦       ¦   ¦       de_IT.dat
+¦   ¦       ¦   ¦       de_LI.dat
+¦   ¦       ¦   ¦       de_LU.dat
+¦   ¦       ¦   ¦       dje.dat
+¦   ¦       ¦   ¦       dje_NE.dat
+¦   ¦       ¦   ¦       dsb.dat
+¦   ¦       ¦   ¦       dsb_DE.dat
+¦   ¦       ¦   ¦       dua.dat
+¦   ¦       ¦   ¦       dua_CM.dat
+¦   ¦       ¦   ¦       dyo.dat
+¦   ¦       ¦   ¦       dyo_SN.dat
+¦   ¦       ¦   ¦       dz.dat
+¦   ¦       ¦   ¦       dz_BT.dat
+¦   ¦       ¦   ¦       ebu.dat
+¦   ¦       ¦   ¦       ebu_KE.dat
+¦   ¦       ¦   ¦       ee.dat
+¦   ¦       ¦   ¦       ee_GH.dat
+¦   ¦       ¦   ¦       ee_TG.dat
+¦   ¦       ¦   ¦       el.dat
+¦   ¦       ¦   ¦       el_CY.dat
+¦   ¦       ¦   ¦       el_GR.dat
+¦   ¦       ¦   ¦       en.dat
+¦   ¦       ¦   ¦       en_001.dat
+¦   ¦       ¦   ¦       en_150.dat
+¦   ¦       ¦   ¦       en_AE.dat
+¦   ¦       ¦   ¦       en_AG.dat
+¦   ¦       ¦   ¦       en_AI.dat
+¦   ¦       ¦   ¦       en_AS.dat
+¦   ¦       ¦   ¦       en_AT.dat
+¦   ¦       ¦   ¦       en_AU.dat
+¦   ¦       ¦   ¦       en_BB.dat
+¦   ¦       ¦   ¦       en_BE.dat
+¦   ¦       ¦   ¦       en_BI.dat
+¦   ¦       ¦   ¦       en_BM.dat
+¦   ¦       ¦   ¦       en_BS.dat
+¦   ¦       ¦   ¦       en_BW.dat
+¦   ¦       ¦   ¦       en_BZ.dat
+¦   ¦       ¦   ¦       en_CA.dat
+¦   ¦       ¦   ¦       en_CC.dat
+¦   ¦       ¦   ¦       en_CH.dat
+¦   ¦       ¦   ¦       en_CK.dat
+¦   ¦       ¦   ¦       en_CM.dat
+¦   ¦       ¦   ¦       en_CX.dat
+¦   ¦       ¦   ¦       en_CY.dat
+¦   ¦       ¦   ¦       en_DE.dat
+¦   ¦       ¦   ¦       en_DG.dat
+¦   ¦       ¦   ¦       en_DK.dat
+¦   ¦       ¦   ¦       en_DM.dat
+¦   ¦       ¦   ¦       en_ER.dat
+¦   ¦       ¦   ¦       en_FI.dat
+¦   ¦       ¦   ¦       en_FJ.dat
+¦   ¦       ¦   ¦       en_FK.dat
+¦   ¦       ¦   ¦       en_FM.dat
+¦   ¦       ¦   ¦       en_GB.dat
+¦   ¦       ¦   ¦       en_GD.dat
+¦   ¦       ¦   ¦       en_GG.dat
+¦   ¦       ¦   ¦       en_GH.dat
+¦   ¦       ¦   ¦       en_GI.dat
+¦   ¦       ¦   ¦       en_GM.dat
+¦   ¦       ¦   ¦       en_GU.dat
+¦   ¦       ¦   ¦       en_GY.dat
+¦   ¦       ¦   ¦       en_HK.dat
+¦   ¦       ¦   ¦       en_IE.dat
+¦   ¦       ¦   ¦       en_IL.dat
+¦   ¦       ¦   ¦       en_IM.dat
+¦   ¦       ¦   ¦       en_IN.dat
+¦   ¦       ¦   ¦       en_IO.dat
+¦   ¦       ¦   ¦       en_JE.dat
+¦   ¦       ¦   ¦       en_JM.dat
+¦   ¦       ¦   ¦       en_KE.dat
+¦   ¦       ¦   ¦       en_KI.dat
+¦   ¦       ¦   ¦       en_KN.dat
+¦   ¦       ¦   ¦       en_KY.dat
+¦   ¦       ¦   ¦       en_LC.dat
+¦   ¦       ¦   ¦       en_LR.dat
+¦   ¦       ¦   ¦       en_LS.dat
+¦   ¦       ¦   ¦       en_MG.dat
+¦   ¦       ¦   ¦       en_MH.dat
+¦   ¦       ¦   ¦       en_MO.dat
+¦   ¦       ¦   ¦       en_MP.dat
+¦   ¦       ¦   ¦       en_MS.dat
+¦   ¦       ¦   ¦       en_MT.dat
+¦   ¦       ¦   ¦       en_MU.dat
+¦   ¦       ¦   ¦       en_MW.dat
+¦   ¦       ¦   ¦       en_MY.dat
+¦   ¦       ¦   ¦       en_NA.dat
+¦   ¦       ¦   ¦       en_NF.dat
+¦   ¦       ¦   ¦       en_NG.dat
+¦   ¦       ¦   ¦       en_NL.dat
+¦   ¦       ¦   ¦       en_NR.dat
+¦   ¦       ¦   ¦       en_NU.dat
+¦   ¦       ¦   ¦       en_NZ.dat
+¦   ¦       ¦   ¦       en_PG.dat
+¦   ¦       ¦   ¦       en_PH.dat
+¦   ¦       ¦   ¦       en_PK.dat
+¦   ¦       ¦   ¦       en_PN.dat
+¦   ¦       ¦   ¦       en_PR.dat
+¦   ¦       ¦   ¦       en_PW.dat
+¦   ¦       ¦   ¦       en_RW.dat
+¦   ¦       ¦   ¦       en_SB.dat
+¦   ¦       ¦   ¦       en_SC.dat
+¦   ¦       ¦   ¦       en_SD.dat
+¦   ¦       ¦   ¦       en_SE.dat
+¦   ¦       ¦   ¦       en_SG.dat
+¦   ¦       ¦   ¦       en_SH.dat
+¦   ¦       ¦   ¦       en_SI.dat
+¦   ¦       ¦   ¦       en_SL.dat
+¦   ¦       ¦   ¦       en_SS.dat
+¦   ¦       ¦   ¦       en_SX.dat
+¦   ¦       ¦   ¦       en_SZ.dat
+¦   ¦       ¦   ¦       en_TC.dat
+¦   ¦       ¦   ¦       en_TK.dat
+¦   ¦       ¦   ¦       en_TO.dat
+¦   ¦       ¦   ¦       en_TT.dat
+¦   ¦       ¦   ¦       en_TV.dat
+¦   ¦       ¦   ¦       en_TZ.dat
+¦   ¦       ¦   ¦       en_UG.dat
+¦   ¦       ¦   ¦       en_UM.dat
+¦   ¦       ¦   ¦       en_US.dat
+¦   ¦       ¦   ¦       en_US_POSIX.dat
+¦   ¦       ¦   ¦       en_VC.dat
+¦   ¦       ¦   ¦       en_VG.dat
+¦   ¦       ¦   ¦       en_VI.dat
+¦   ¦       ¦   ¦       en_VU.dat
+¦   ¦       ¦   ¦       en_WS.dat
+¦   ¦       ¦   ¦       en_ZA.dat
+¦   ¦       ¦   ¦       en_ZM.dat
+¦   ¦       ¦   ¦       en_ZW.dat
+¦   ¦       ¦   ¦       eo.dat
+¦   ¦       ¦   ¦       eo_001.dat
+¦   ¦       ¦   ¦       es.dat
+¦   ¦       ¦   ¦       es_419.dat
+¦   ¦       ¦   ¦       es_AR.dat
+¦   ¦       ¦   ¦       es_BO.dat
+¦   ¦       ¦   ¦       es_BR.dat
+¦   ¦       ¦   ¦       es_BZ.dat
+¦   ¦       ¦   ¦       es_CL.dat
+¦   ¦       ¦   ¦       es_CO.dat
+¦   ¦       ¦   ¦       es_CR.dat
+¦   ¦       ¦   ¦       es_CU.dat
+¦   ¦       ¦   ¦       es_DO.dat
+¦   ¦       ¦   ¦       es_EA.dat
+¦   ¦       ¦   ¦       es_EC.dat
+¦   ¦       ¦   ¦       es_ES.dat
+¦   ¦       ¦   ¦       es_GQ.dat
+¦   ¦       ¦   ¦       es_GT.dat
+¦   ¦       ¦   ¦       es_HN.dat
+¦   ¦       ¦   ¦       es_IC.dat
+¦   ¦       ¦   ¦       es_MX.dat
+¦   ¦       ¦   ¦       es_NI.dat
+¦   ¦       ¦   ¦       es_PA.dat
+¦   ¦       ¦   ¦       es_PE.dat
+¦   ¦       ¦   ¦       es_PH.dat
+¦   ¦       ¦   ¦       es_PR.dat
+¦   ¦       ¦   ¦       es_PY.dat
+¦   ¦       ¦   ¦       es_SV.dat
+¦   ¦       ¦   ¦       es_US.dat
+¦   ¦       ¦   ¦       es_UY.dat
+¦   ¦       ¦   ¦       es_VE.dat
+¦   ¦       ¦   ¦       et.dat
+¦   ¦       ¦   ¦       et_EE.dat
+¦   ¦       ¦   ¦       eu.dat
+¦   ¦       ¦   ¦       eu_ES.dat
+¦   ¦       ¦   ¦       ewo.dat
+¦   ¦       ¦   ¦       ewo_CM.dat
+¦   ¦       ¦   ¦       fa.dat
+¦   ¦       ¦   ¦       fa_AF.dat
+¦   ¦       ¦   ¦       fa_IR.dat
+¦   ¦       ¦   ¦       ff.dat
+¦   ¦       ¦   ¦       ff_Adlm.dat
+¦   ¦       ¦   ¦       ff_Adlm_BF.dat
+¦   ¦       ¦   ¦       ff_Adlm_CM.dat
+¦   ¦       ¦   ¦       ff_Adlm_GH.dat
+¦   ¦       ¦   ¦       ff_Adlm_GM.dat
+¦   ¦       ¦   ¦       ff_Adlm_GN.dat
+¦   ¦       ¦   ¦       ff_Adlm_GW.dat
+¦   ¦       ¦   ¦       ff_Adlm_LR.dat
+¦   ¦       ¦   ¦       ff_Adlm_MR.dat
+¦   ¦       ¦   ¦       ff_Adlm_NE.dat
+¦   ¦       ¦   ¦       ff_Adlm_NG.dat
+¦   ¦       ¦   ¦       ff_Adlm_SL.dat
+¦   ¦       ¦   ¦       ff_Adlm_SN.dat
+¦   ¦       ¦   ¦       ff_Latn.dat
+¦   ¦       ¦   ¦       ff_Latn_BF.dat
+¦   ¦       ¦   ¦       ff_Latn_CM.dat
+¦   ¦       ¦   ¦       ff_Latn_GH.dat
+¦   ¦       ¦   ¦       ff_Latn_GM.dat
+¦   ¦       ¦   ¦       ff_Latn_GN.dat
+¦   ¦       ¦   ¦       ff_Latn_GW.dat
+¦   ¦       ¦   ¦       ff_Latn_LR.dat
+¦   ¦       ¦   ¦       ff_Latn_MR.dat
+¦   ¦       ¦   ¦       ff_Latn_NE.dat
+¦   ¦       ¦   ¦       ff_Latn_NG.dat
+¦   ¦       ¦   ¦       ff_Latn_SL.dat
+¦   ¦       ¦   ¦       ff_Latn_SN.dat
+¦   ¦       ¦   ¦       fi.dat
+¦   ¦       ¦   ¦       fil.dat
+¦   ¦       ¦   ¦       fil_PH.dat
+¦   ¦       ¦   ¦       fi_FI.dat
+¦   ¦       ¦   ¦       fo.dat
+¦   ¦       ¦   ¦       fo_DK.dat
+¦   ¦       ¦   ¦       fo_FO.dat
+¦   ¦       ¦   ¦       fr.dat
+¦   ¦       ¦   ¦       fr_BE.dat
+¦   ¦       ¦   ¦       fr_BF.dat
+¦   ¦       ¦   ¦       fr_BI.dat
+¦   ¦       ¦   ¦       fr_BJ.dat
+¦   ¦       ¦   ¦       fr_BL.dat
+¦   ¦       ¦   ¦       fr_CA.dat
+¦   ¦       ¦   ¦       fr_CD.dat
+¦   ¦       ¦   ¦       fr_CF.dat
+¦   ¦       ¦   ¦       fr_CG.dat
+¦   ¦       ¦   ¦       fr_CH.dat
+¦   ¦       ¦   ¦       fr_CI.dat
+¦   ¦       ¦   ¦       fr_CM.dat
+¦   ¦       ¦   ¦       fr_DJ.dat
+¦   ¦       ¦   ¦       fr_DZ.dat
+¦   ¦       ¦   ¦       fr_FR.dat
+¦   ¦       ¦   ¦       fr_GA.dat
+¦   ¦       ¦   ¦       fr_GF.dat
+¦   ¦       ¦   ¦       fr_GN.dat
+¦   ¦       ¦   ¦       fr_GP.dat
+¦   ¦       ¦   ¦       fr_GQ.dat
+¦   ¦       ¦   ¦       fr_HT.dat
+¦   ¦       ¦   ¦       fr_KM.dat
+¦   ¦       ¦   ¦       fr_LU.dat
+¦   ¦       ¦   ¦       fr_MA.dat
+¦   ¦       ¦   ¦       fr_MC.dat
+¦   ¦       ¦   ¦       fr_MF.dat
+¦   ¦       ¦   ¦       fr_MG.dat
+¦   ¦       ¦   ¦       fr_ML.dat
+¦   ¦       ¦   ¦       fr_MQ.dat
+¦   ¦       ¦   ¦       fr_MR.dat
+¦   ¦       ¦   ¦       fr_MU.dat
+¦   ¦       ¦   ¦       fr_NC.dat
+¦   ¦       ¦   ¦       fr_NE.dat
+¦   ¦       ¦   ¦       fr_PF.dat
+¦   ¦       ¦   ¦       fr_PM.dat
+¦   ¦       ¦   ¦       fr_RE.dat
+¦   ¦       ¦   ¦       fr_RW.dat
+¦   ¦       ¦   ¦       fr_SC.dat
+¦   ¦       ¦   ¦       fr_SN.dat
+¦   ¦       ¦   ¦       fr_SY.dat
+¦   ¦       ¦   ¦       fr_TD.dat
+¦   ¦       ¦   ¦       fr_TG.dat
+¦   ¦       ¦   ¦       fr_TN.dat
+¦   ¦       ¦   ¦       fr_VU.dat
+¦   ¦       ¦   ¦       fr_WF.dat
+¦   ¦       ¦   ¦       fr_YT.dat
+¦   ¦       ¦   ¦       fur.dat
+¦   ¦       ¦   ¦       fur_IT.dat
+¦   ¦       ¦   ¦       fy.dat
+¦   ¦       ¦   ¦       fy_NL.dat
+¦   ¦       ¦   ¦       ga.dat
+¦   ¦       ¦   ¦       ga_GB.dat
+¦   ¦       ¦   ¦       ga_IE.dat
+¦   ¦       ¦   ¦       gd.dat
+¦   ¦       ¦   ¦       gd_GB.dat
+¦   ¦       ¦   ¦       gl.dat
+¦   ¦       ¦   ¦       gl_ES.dat
+¦   ¦       ¦   ¦       gsw.dat
+¦   ¦       ¦   ¦       gsw_CH.dat
+¦   ¦       ¦   ¦       gsw_FR.dat
+¦   ¦       ¦   ¦       gsw_LI.dat
+¦   ¦       ¦   ¦       gu.dat
+¦   ¦       ¦   ¦       guz.dat
+¦   ¦       ¦   ¦       guz_KE.dat
+¦   ¦       ¦   ¦       gu_IN.dat
+¦   ¦       ¦   ¦       gv.dat
+¦   ¦       ¦   ¦       gv_IM.dat
+¦   ¦       ¦   ¦       ha.dat
+¦   ¦       ¦   ¦       haw.dat
+¦   ¦       ¦   ¦       haw_US.dat
+¦   ¦       ¦   ¦       ha_GH.dat
+¦   ¦       ¦   ¦       ha_NE.dat
+¦   ¦       ¦   ¦       ha_NG.dat
+¦   ¦       ¦   ¦       he.dat
+¦   ¦       ¦   ¦       he_IL.dat
+¦   ¦       ¦   ¦       hi.dat
+¦   ¦       ¦   ¦       hi_IN.dat
+¦   ¦       ¦   ¦       hr.dat
+¦   ¦       ¦   ¦       hr_BA.dat
+¦   ¦       ¦   ¦       hr_HR.dat
+¦   ¦       ¦   ¦       hsb.dat
+¦   ¦       ¦   ¦       hsb_DE.dat
+¦   ¦       ¦   ¦       hu.dat
+¦   ¦       ¦   ¦       hu_HU.dat
+¦   ¦       ¦   ¦       hy.dat
+¦   ¦       ¦   ¦       hy_AM.dat
+¦   ¦       ¦   ¦       ia.dat
+¦   ¦       ¦   ¦       ia_001.dat
+¦   ¦       ¦   ¦       id.dat
+¦   ¦       ¦   ¦       id_ID.dat
+¦   ¦       ¦   ¦       ig.dat
+¦   ¦       ¦   ¦       ig_NG.dat
+¦   ¦       ¦   ¦       ii.dat
+¦   ¦       ¦   ¦       ii_CN.dat
+¦   ¦       ¦   ¦       is.dat
+¦   ¦       ¦   ¦       is_IS.dat
+¦   ¦       ¦   ¦       it.dat
+¦   ¦       ¦   ¦       it_CH.dat
+¦   ¦       ¦   ¦       it_IT.dat
+¦   ¦       ¦   ¦       it_SM.dat
+¦   ¦       ¦   ¦       it_VA.dat
+¦   ¦       ¦   ¦       ja.dat
+¦   ¦       ¦   ¦       ja_JP.dat
+¦   ¦       ¦   ¦       jgo.dat
+¦   ¦       ¦   ¦       jgo_CM.dat
+¦   ¦       ¦   ¦       jmc.dat
+¦   ¦       ¦   ¦       jmc_TZ.dat
+¦   ¦       ¦   ¦       jv.dat
+¦   ¦       ¦   ¦       jv_ID.dat
+¦   ¦       ¦   ¦       ka.dat
+¦   ¦       ¦   ¦       kab.dat
+¦   ¦       ¦   ¦       kab_DZ.dat
+¦   ¦       ¦   ¦       kam.dat
+¦   ¦       ¦   ¦       kam_KE.dat
+¦   ¦       ¦   ¦       ka_GE.dat
+¦   ¦       ¦   ¦       kde.dat
+¦   ¦       ¦   ¦       kde_TZ.dat
+¦   ¦       ¦   ¦       kea.dat
+¦   ¦       ¦   ¦       kea_CV.dat
+¦   ¦       ¦   ¦       khq.dat
+¦   ¦       ¦   ¦       khq_ML.dat
+¦   ¦       ¦   ¦       ki.dat
+¦   ¦       ¦   ¦       ki_KE.dat
+¦   ¦       ¦   ¦       kk.dat
+¦   ¦       ¦   ¦       kkj.dat
+¦   ¦       ¦   ¦       kkj_CM.dat
+¦   ¦       ¦   ¦       kk_KZ.dat
+¦   ¦       ¦   ¦       kl.dat
+¦   ¦       ¦   ¦       kln.dat
+¦   ¦       ¦   ¦       kln_KE.dat
+¦   ¦       ¦   ¦       kl_GL.dat
+¦   ¦       ¦   ¦       km.dat
+¦   ¦       ¦   ¦       km_KH.dat
+¦   ¦       ¦   ¦       kn.dat
+¦   ¦       ¦   ¦       kn_IN.dat
+¦   ¦       ¦   ¦       ko.dat
+¦   ¦       ¦   ¦       kok.dat
+¦   ¦       ¦   ¦       kok_IN.dat
+¦   ¦       ¦   ¦       ko_KP.dat
+¦   ¦       ¦   ¦       ko_KR.dat
+¦   ¦       ¦   ¦       ks.dat
+¦   ¦       ¦   ¦       ksb.dat
+¦   ¦       ¦   ¦       ksb_TZ.dat
+¦   ¦       ¦   ¦       ksf.dat
+¦   ¦       ¦   ¦       ksf_CM.dat
+¦   ¦       ¦   ¦       ksh.dat
+¦   ¦       ¦   ¦       ksh_DE.dat
+¦   ¦       ¦   ¦       ks_Arab.dat
+¦   ¦       ¦   ¦       ks_Arab_IN.dat
+¦   ¦       ¦   ¦       ku.dat
+¦   ¦       ¦   ¦       ku_TR.dat
+¦   ¦       ¦   ¦       kw.dat
+¦   ¦       ¦   ¦       kw_GB.dat
+¦   ¦       ¦   ¦       ky.dat
+¦   ¦       ¦   ¦       ky_KG.dat
+¦   ¦       ¦   ¦       lag.dat
+¦   ¦       ¦   ¦       lag_TZ.dat
+¦   ¦       ¦   ¦       lb.dat
+¦   ¦       ¦   ¦       lb_LU.dat
+¦   ¦       ¦   ¦       lg.dat
+¦   ¦       ¦   ¦       lg_UG.dat
+¦   ¦       ¦   ¦       lkt.dat
+¦   ¦       ¦   ¦       lkt_US.dat
+¦   ¦       ¦   ¦       ln.dat
+¦   ¦       ¦   ¦       ln_AO.dat
+¦   ¦       ¦   ¦       ln_CD.dat
+¦   ¦       ¦   ¦       ln_CF.dat
+¦   ¦       ¦   ¦       ln_CG.dat
+¦   ¦       ¦   ¦       lo.dat
+¦   ¦       ¦   ¦       lo_LA.dat
+¦   ¦       ¦   ¦       lrc.dat
+¦   ¦       ¦   ¦       lrc_IQ.dat
+¦   ¦       ¦   ¦       lrc_IR.dat
+¦   ¦       ¦   ¦       lt.dat
+¦   ¦       ¦   ¦       lt_LT.dat
+¦   ¦       ¦   ¦       lu.dat
+¦   ¦       ¦   ¦       luo.dat
+¦   ¦       ¦   ¦       luo_KE.dat
+¦   ¦       ¦   ¦       luy.dat
+¦   ¦       ¦   ¦       luy_KE.dat
+¦   ¦       ¦   ¦       lu_CD.dat
+¦   ¦       ¦   ¦       lv.dat
+¦   ¦       ¦   ¦       lv_LV.dat
+¦   ¦       ¦   ¦       mai.dat
+¦   ¦       ¦   ¦       mai_IN.dat
+¦   ¦       ¦   ¦       mas.dat
+¦   ¦       ¦   ¦       mas_KE.dat
+¦   ¦       ¦   ¦       mas_TZ.dat
+¦   ¦       ¦   ¦       mer.dat
+¦   ¦       ¦   ¦       mer_KE.dat
+¦   ¦       ¦   ¦       mfe.dat
+¦   ¦       ¦   ¦       mfe_MU.dat
+¦   ¦       ¦   ¦       mg.dat
+¦   ¦       ¦   ¦       mgh.dat
+¦   ¦       ¦   ¦       mgh_MZ.dat
+¦   ¦       ¦   ¦       mgo.dat
+¦   ¦       ¦   ¦       mgo_CM.dat
+¦   ¦       ¦   ¦       mg_MG.dat
+¦   ¦       ¦   ¦       mi.dat
+¦   ¦       ¦   ¦       mi_NZ.dat
+¦   ¦       ¦   ¦       mk.dat
+¦   ¦       ¦   ¦       mk_MK.dat
+¦   ¦       ¦   ¦       ml.dat
+¦   ¦       ¦   ¦       ml_IN.dat
+¦   ¦       ¦   ¦       mn.dat
+¦   ¦       ¦   ¦       mni.dat
+¦   ¦       ¦   ¦       mni_Beng.dat
+¦   ¦       ¦   ¦       mni_Beng_IN.dat
+¦   ¦       ¦   ¦       mn_MN.dat
+¦   ¦       ¦   ¦       mr.dat
+¦   ¦       ¦   ¦       mr_IN.dat
+¦   ¦       ¦   ¦       ms.dat
+¦   ¦       ¦   ¦       ms_BN.dat
+¦   ¦       ¦   ¦       ms_ID.dat
+¦   ¦       ¦   ¦       ms_MY.dat
+¦   ¦       ¦   ¦       ms_SG.dat
+¦   ¦       ¦   ¦       mt.dat
+¦   ¦       ¦   ¦       mt_MT.dat
+¦   ¦       ¦   ¦       mua.dat
+¦   ¦       ¦   ¦       mua_CM.dat
+¦   ¦       ¦   ¦       my.dat
+¦   ¦       ¦   ¦       my_MM.dat
+¦   ¦       ¦   ¦       mzn.dat
+¦   ¦       ¦   ¦       mzn_IR.dat
+¦   ¦       ¦   ¦       naq.dat
+¦   ¦       ¦   ¦       naq_NA.dat
+¦   ¦       ¦   ¦       nb.dat
+¦   ¦       ¦   ¦       nb_NO.dat
+¦   ¦       ¦   ¦       nb_SJ.dat
+¦   ¦       ¦   ¦       nd.dat
+¦   ¦       ¦   ¦       nds.dat
+¦   ¦       ¦   ¦       nds_DE.dat
+¦   ¦       ¦   ¦       nds_NL.dat
+¦   ¦       ¦   ¦       nd_ZW.dat
+¦   ¦       ¦   ¦       ne.dat
+¦   ¦       ¦   ¦       ne_IN.dat
+¦   ¦       ¦   ¦       ne_NP.dat
+¦   ¦       ¦   ¦       nl.dat
+¦   ¦       ¦   ¦       nl_AW.dat
+¦   ¦       ¦   ¦       nl_BE.dat
+¦   ¦       ¦   ¦       nl_BQ.dat
+¦   ¦       ¦   ¦       nl_CW.dat
+¦   ¦       ¦   ¦       nl_NL.dat
+¦   ¦       ¦   ¦       nl_SR.dat
+¦   ¦       ¦   ¦       nl_SX.dat
+¦   ¦       ¦   ¦       nmg.dat
+¦   ¦       ¦   ¦       nmg_CM.dat
+¦   ¦       ¦   ¦       nn.dat
+¦   ¦       ¦   ¦       nnh.dat
+¦   ¦       ¦   ¦       nnh_CM.dat
+¦   ¦       ¦   ¦       nn_NO.dat
+¦   ¦       ¦   ¦       nus.dat
+¦   ¦       ¦   ¦       nus_SS.dat
+¦   ¦       ¦   ¦       nyn.dat
+¦   ¦       ¦   ¦       nyn_UG.dat
+¦   ¦       ¦   ¦       om.dat
+¦   ¦       ¦   ¦       om_ET.dat
+¦   ¦       ¦   ¦       om_KE.dat
+¦   ¦       ¦   ¦       or.dat
+¦   ¦       ¦   ¦       or_IN.dat
+¦   ¦       ¦   ¦       os.dat
+¦   ¦       ¦   ¦       os_GE.dat
+¦   ¦       ¦   ¦       os_RU.dat
+¦   ¦       ¦   ¦       pa.dat
+¦   ¦       ¦   ¦       pa_Arab.dat
+¦   ¦       ¦   ¦       pa_Arab_PK.dat
+¦   ¦       ¦   ¦       pa_Guru.dat
+¦   ¦       ¦   ¦       pa_Guru_IN.dat
+¦   ¦       ¦   ¦       pcm.dat
+¦   ¦       ¦   ¦       pcm_NG.dat
+¦   ¦       ¦   ¦       pl.dat
+¦   ¦       ¦   ¦       pl_PL.dat
+¦   ¦       ¦   ¦       prg.dat
+¦   ¦       ¦   ¦       prg_001.dat
+¦   ¦       ¦   ¦       ps.dat
+¦   ¦       ¦   ¦       ps_AF.dat
+¦   ¦       ¦   ¦       ps_PK.dat
+¦   ¦       ¦   ¦       pt.dat
+¦   ¦       ¦   ¦       pt_AO.dat
+¦   ¦       ¦   ¦       pt_BR.dat
+¦   ¦       ¦   ¦       pt_CH.dat
+¦   ¦       ¦   ¦       pt_CV.dat
+¦   ¦       ¦   ¦       pt_GQ.dat
+¦   ¦       ¦   ¦       pt_GW.dat
+¦   ¦       ¦   ¦       pt_LU.dat
+¦   ¦       ¦   ¦       pt_MO.dat
+¦   ¦       ¦   ¦       pt_MZ.dat
+¦   ¦       ¦   ¦       pt_PT.dat
+¦   ¦       ¦   ¦       pt_ST.dat
+¦   ¦       ¦   ¦       pt_TL.dat
+¦   ¦       ¦   ¦       qu.dat
+¦   ¦       ¦   ¦       qu_BO.dat
+¦   ¦       ¦   ¦       qu_EC.dat
+¦   ¦       ¦   ¦       qu_PE.dat
+¦   ¦       ¦   ¦       rm.dat
+¦   ¦       ¦   ¦       rm_CH.dat
+¦   ¦       ¦   ¦       rn.dat
+¦   ¦       ¦   ¦       rn_BI.dat
+¦   ¦       ¦   ¦       ro.dat
+¦   ¦       ¦   ¦       rof.dat
+¦   ¦       ¦   ¦       rof_TZ.dat
+¦   ¦       ¦   ¦       root.dat
+¦   ¦       ¦   ¦       ro_MD.dat
+¦   ¦       ¦   ¦       ro_RO.dat
+¦   ¦       ¦   ¦       ru.dat
+¦   ¦       ¦   ¦       ru_BY.dat
+¦   ¦       ¦   ¦       ru_KG.dat
+¦   ¦       ¦   ¦       ru_KZ.dat
+¦   ¦       ¦   ¦       ru_MD.dat
+¦   ¦       ¦   ¦       ru_RU.dat
+¦   ¦       ¦   ¦       ru_UA.dat
+¦   ¦       ¦   ¦       rw.dat
+¦   ¦       ¦   ¦       rwk.dat
+¦   ¦       ¦   ¦       rwk_TZ.dat
+¦   ¦       ¦   ¦       rw_RW.dat
+¦   ¦       ¦   ¦       sah.dat
+¦   ¦       ¦   ¦       sah_RU.dat
+¦   ¦       ¦   ¦       saq.dat
+¦   ¦       ¦   ¦       saq_KE.dat
+¦   ¦       ¦   ¦       sat.dat
+¦   ¦       ¦   ¦       sat_Olck.dat
+¦   ¦       ¦   ¦       sat_Olck_IN.dat
+¦   ¦       ¦   ¦       sbp.dat
+¦   ¦       ¦   ¦       sbp_TZ.dat
+¦   ¦       ¦   ¦       sd.dat
+¦   ¦       ¦   ¦       sd_Arab.dat
+¦   ¦       ¦   ¦       sd_Arab_PK.dat
+¦   ¦       ¦   ¦       sd_Deva.dat
+¦   ¦       ¦   ¦       sd_Deva_IN.dat
+¦   ¦       ¦   ¦       se.dat
+¦   ¦       ¦   ¦       seh.dat
+¦   ¦       ¦   ¦       seh_MZ.dat
+¦   ¦       ¦   ¦       ses.dat
+¦   ¦       ¦   ¦       ses_ML.dat
+¦   ¦       ¦   ¦       se_FI.dat
+¦   ¦       ¦   ¦       se_NO.dat
+¦   ¦       ¦   ¦       se_SE.dat
+¦   ¦       ¦   ¦       sg.dat
+¦   ¦       ¦   ¦       sg_CF.dat
+¦   ¦       ¦   ¦       shi.dat
+¦   ¦       ¦   ¦       shi_Latn.dat
+¦   ¦       ¦   ¦       shi_Latn_MA.dat
+¦   ¦       ¦   ¦       shi_Tfng.dat
+¦   ¦       ¦   ¦       shi_Tfng_MA.dat
+¦   ¦       ¦   ¦       si.dat
+¦   ¦       ¦   ¦       si_LK.dat
+¦   ¦       ¦   ¦       sk.dat
+¦   ¦       ¦   ¦       sk_SK.dat
+¦   ¦       ¦   ¦       sl.dat
+¦   ¦       ¦   ¦       sl_SI.dat
+¦   ¦       ¦   ¦       smn.dat
+¦   ¦       ¦   ¦       smn_FI.dat
+¦   ¦       ¦   ¦       sn.dat
+¦   ¦       ¦   ¦       sn_ZW.dat
+¦   ¦       ¦   ¦       so.dat
+¦   ¦       ¦   ¦       so_DJ.dat
+¦   ¦       ¦   ¦       so_ET.dat
+¦   ¦       ¦   ¦       so_KE.dat
+¦   ¦       ¦   ¦       so_SO.dat
+¦   ¦       ¦   ¦       sq.dat
+¦   ¦       ¦   ¦       sq_AL.dat
+¦   ¦       ¦   ¦       sq_MK.dat
+¦   ¦       ¦   ¦       sq_XK.dat
+¦   ¦       ¦   ¦       sr.dat
+¦   ¦       ¦   ¦       sr_Cyrl.dat
+¦   ¦       ¦   ¦       sr_Cyrl_BA.dat
+¦   ¦       ¦   ¦       sr_Cyrl_ME.dat
+¦   ¦       ¦   ¦       sr_Cyrl_RS.dat
+¦   ¦       ¦   ¦       sr_Cyrl_XK.dat
+¦   ¦       ¦   ¦       sr_Latn.dat
+¦   ¦       ¦   ¦       sr_Latn_BA.dat
+¦   ¦       ¦   ¦       sr_Latn_ME.dat
+¦   ¦       ¦   ¦       sr_Latn_RS.dat
+¦   ¦       ¦   ¦       sr_Latn_XK.dat
+¦   ¦       ¦   ¦       su.dat
+¦   ¦       ¦   ¦       su_Latn.dat
+¦   ¦       ¦   ¦       su_Latn_ID.dat
+¦   ¦       ¦   ¦       sv.dat
+¦   ¦       ¦   ¦       sv_AX.dat
+¦   ¦       ¦   ¦       sv_FI.dat
+¦   ¦       ¦   ¦       sv_SE.dat
+¦   ¦       ¦   ¦       sw.dat
+¦   ¦       ¦   ¦       sw_CD.dat
+¦   ¦       ¦   ¦       sw_KE.dat
+¦   ¦       ¦   ¦       sw_TZ.dat
+¦   ¦       ¦   ¦       sw_UG.dat
+¦   ¦       ¦   ¦       ta.dat
+¦   ¦       ¦   ¦       ta_IN.dat
+¦   ¦       ¦   ¦       ta_LK.dat
+¦   ¦       ¦   ¦       ta_MY.dat
+¦   ¦       ¦   ¦       ta_SG.dat
+¦   ¦       ¦   ¦       te.dat
+¦   ¦       ¦   ¦       teo.dat
+¦   ¦       ¦   ¦       teo_KE.dat
+¦   ¦       ¦   ¦       teo_UG.dat
+¦   ¦       ¦   ¦       te_IN.dat
+¦   ¦       ¦   ¦       tg.dat
+¦   ¦       ¦   ¦       tg_TJ.dat
+¦   ¦       ¦   ¦       th.dat
+¦   ¦       ¦   ¦       th_TH.dat
+¦   ¦       ¦   ¦       ti.dat
+¦   ¦       ¦   ¦       ti_ER.dat
+¦   ¦       ¦   ¦       ti_ET.dat
+¦   ¦       ¦   ¦       tk.dat
+¦   ¦       ¦   ¦       tk_TM.dat
+¦   ¦       ¦   ¦       to.dat
+¦   ¦       ¦   ¦       to_TO.dat
+¦   ¦       ¦   ¦       tr.dat
+¦   ¦       ¦   ¦       tr_CY.dat
+¦   ¦       ¦   ¦       tr_TR.dat
+¦   ¦       ¦   ¦       tt.dat
+¦   ¦       ¦   ¦       tt_RU.dat
+¦   ¦       ¦   ¦       twq.dat
+¦   ¦       ¦   ¦       twq_NE.dat
+¦   ¦       ¦   ¦       tzm.dat
+¦   ¦       ¦   ¦       tzm_MA.dat
+¦   ¦       ¦   ¦       ug.dat
+¦   ¦       ¦   ¦       ug_CN.dat
+¦   ¦       ¦   ¦       uk.dat
+¦   ¦       ¦   ¦       uk_UA.dat
+¦   ¦       ¦   ¦       ur.dat
+¦   ¦       ¦   ¦       ur_IN.dat
+¦   ¦       ¦   ¦       ur_PK.dat
+¦   ¦       ¦   ¦       uz.dat
+¦   ¦       ¦   ¦       uz_Arab.dat
+¦   ¦       ¦   ¦       uz_Arab_AF.dat
+¦   ¦       ¦   ¦       uz_Cyrl.dat
+¦   ¦       ¦   ¦       uz_Cyrl_UZ.dat
+¦   ¦       ¦   ¦       uz_Latn.dat
+¦   ¦       ¦   ¦       uz_Latn_UZ.dat
+¦   ¦       ¦   ¦       vai.dat
+¦   ¦       ¦   ¦       vai_Latn.dat
+¦   ¦       ¦   ¦       vai_Latn_LR.dat
+¦   ¦       ¦   ¦       vai_Vaii.dat
+¦   ¦       ¦   ¦       vai_Vaii_LR.dat
+¦   ¦       ¦   ¦       vi.dat
+¦   ¦       ¦   ¦       vi_VN.dat
+¦   ¦       ¦   ¦       vo.dat
+¦   ¦       ¦   ¦       vo_001.dat
+¦   ¦       ¦   ¦       vun.dat
+¦   ¦       ¦   ¦       vun_TZ.dat
+¦   ¦       ¦   ¦       wae.dat
+¦   ¦       ¦   ¦       wae_CH.dat
+¦   ¦       ¦   ¦       wo.dat
+¦   ¦       ¦   ¦       wo_SN.dat
+¦   ¦       ¦   ¦       xh.dat
+¦   ¦       ¦   ¦       xh_ZA.dat
+¦   ¦       ¦   ¦       xog.dat
+¦   ¦       ¦   ¦       xog_UG.dat
+¦   ¦       ¦   ¦       yav.dat
+¦   ¦       ¦   ¦       yav_CM.dat
+¦   ¦       ¦   ¦       yi.dat
+¦   ¦       ¦   ¦       yi_001.dat
+¦   ¦       ¦   ¦       yo.dat
+¦   ¦       ¦   ¦       yo_BJ.dat
+¦   ¦       ¦   ¦       yo_NG.dat
+¦   ¦       ¦   ¦       yue.dat
+¦   ¦       ¦   ¦       yue_Hans.dat
+¦   ¦       ¦   ¦       yue_Hans_CN.dat
+¦   ¦       ¦   ¦       yue_Hant.dat
+¦   ¦       ¦   ¦       yue_Hant_HK.dat
+¦   ¦       ¦   ¦       zgh.dat
+¦   ¦       ¦   ¦       zgh_MA.dat
+¦   ¦       ¦   ¦       zh.dat
+¦   ¦       ¦   ¦       zh_Hans.dat
+¦   ¦       ¦   ¦       zh_Hans_CN.dat
+¦   ¦       ¦   ¦       zh_Hans_HK.dat
+¦   ¦       ¦   ¦       zh_Hans_MO.dat
+¦   ¦       ¦   ¦       zh_Hans_SG.dat
+¦   ¦       ¦   ¦       zh_Hant.dat
+¦   ¦       ¦   ¦       zh_Hant_HK.dat
+¦   ¦       ¦   ¦       zh_Hant_MO.dat
+¦   ¦       ¦   ¦       zh_Hant_TW.dat
+¦   ¦       ¦   ¦       zu.dat
+¦   ¦       ¦   ¦       zu_ZA.dat
+¦   ¦       ¦   ¦       
+¦   ¦       ¦   +---localtime
+¦   ¦       ¦   ¦   ¦   _unix.py
+¦   ¦       ¦   ¦   ¦   _win32.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           _unix.cpython-311.pyc
+¦   ¦       ¦   ¦           _win32.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---messages
+¦   ¦       ¦   ¦   ¦   catalog.py
+¦   ¦       ¦   ¦   ¦   checkers.py
+¦   ¦       ¦   ¦   ¦   extract.py
+¦   ¦       ¦   ¦   ¦   frontend.py
+¦   ¦       ¦   ¦   ¦   jslexer.py
+¦   ¦       ¦   ¦   ¦   mofile.py
+¦   ¦       ¦   ¦   ¦   plurals.py
+¦   ¦       ¦   ¦   ¦   pofile.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           catalog.cpython-311.pyc
+¦   ¦       ¦   ¦           checkers.cpython-311.pyc
+¦   ¦       ¦   ¦           extract.cpython-311.pyc
+¦   ¦       ¦   ¦           frontend.cpython-311.pyc
+¦   ¦       ¦   ¦           jslexer.cpython-311.pyc
+¦   ¦       ¦   ¦           mofile.cpython-311.pyc
+¦   ¦       ¦   ¦           plurals.cpython-311.pyc
+¦   ¦       ¦   ¦           pofile.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           core.cpython-311.pyc
+¦   ¦       ¦           dates.cpython-311.pyc
+¦   ¦       ¦           languages.cpython-311.pyc
+¦   ¦       ¦           lists.cpython-311.pyc
+¦   ¦       ¦           localedata.cpython-311.pyc
+¦   ¦       ¦           numbers.cpython-311.pyc
+¦   ¦       ¦           plural.cpython-311.pyc
+¦   ¦       ¦           support.cpython-311.pyc
+¦   ¦       ¦           units.cpython-311.pyc
+¦   ¦       ¦           util.cpython-311.pyc
+¦   ¦       ¦           _compat.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---Babel-2.9.1.dist-info
+¦   ¦       ¦       entry_points.txt
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---certifi
+¦   ¦       ¦   ¦   cacert.pem
+¦   ¦       ¦   ¦   core.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           core.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           __main__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---certifi-2025.1.31.dist-info
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---charset_normalizer
+¦   ¦       ¦   ¦   api.py
+¦   ¦       ¦   ¦   cd.py
+¦   ¦       ¦   ¦   constant.py
+¦   ¦       ¦   ¦   legacy.py
+¦   ¦       ¦   ¦   md.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   md.py
+¦   ¦       ¦   ¦   md__mypyc.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   models.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   utils.py
+¦   ¦       ¦   ¦   version.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---cli
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           __main__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           api.cpython-311.pyc
+¦   ¦       ¦           cd.cpython-311.pyc
+¦   ¦       ¦           constant.cpython-311.pyc
+¦   ¦       ¦           legacy.cpython-311.pyc
+¦   ¦       ¦           md.cpython-311.pyc
+¦   ¦       ¦           models.cpython-311.pyc
+¦   ¦       ¦           utils.cpython-311.pyc
+¦   ¦       ¦           version.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           __main__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---charset_normalizer-3.4.1.dist-info
+¦   ¦       ¦       entry_points.txt
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---dotenv
+¦   ¦       ¦   ¦   cli.py
+¦   ¦       ¦   ¦   ipython.py
+¦   ¦       ¦   ¦   main.py
+¦   ¦       ¦   ¦   parser.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   variables.py
+¦   ¦       ¦   ¦   version.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           cli.cpython-311.pyc
+¦   ¦       ¦           ipython.cpython-311.pyc
+¦   ¦       ¦           main.cpython-311.pyc
+¦   ¦       ¦           parser.cpython-311.pyc
+¦   ¦       ¦           variables.cpython-311.pyc
+¦   ¦       ¦           version.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           __main__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---frozenlist
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   _frozenlist.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   _frozenlist.cpp
+¦   ¦       ¦   ¦   _frozenlist.pyx
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   __init__.pyi
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---frozenlist-1.6.0.dist-info
+¦   ¦       ¦   ¦   INSTALLER
+¦   ¦       ¦   ¦   METADATA
+¦   ¦       ¦   ¦   RECORD
+¦   ¦       ¦   ¦   top_level.txt
+¦   ¦       ¦   ¦   WHEEL
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---licenses
+¦   ¦       ¦           LICENSE
+¦   ¦       ¦           
+¦   ¦       +---idna
+¦   ¦       ¦   ¦   codec.py
+¦   ¦       ¦   ¦   compat.py
+¦   ¦       ¦   ¦   core.py
+¦   ¦       ¦   ¦   idnadata.py
+¦   ¦       ¦   ¦   intranges.py
+¦   ¦       ¦   ¦   package_data.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   uts46data.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           codec.cpython-311.pyc
+¦   ¦       ¦           compat.cpython-311.pyc
+¦   ¦       ¦           core.cpython-311.pyc
+¦   ¦       ¦           idnadata.cpython-311.pyc
+¦   ¦       ¦           intranges.cpython-311.pyc
+¦   ¦       ¦           package_data.cpython-311.pyc
+¦   ¦       ¦           uts46data.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---idna-3.10.dist-info
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE.md
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---leaderboard
+¦   ¦       ¦   ¦   competition_ranking_leaderboard.py
+¦   ¦       ¦   ¦   leaderboard.py
+¦   ¦       ¦   ¦   tie_ranking_leaderboard.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           competition_ranking_leaderboard.cpython-311.pyc
+¦   ¦       ¦           leaderboard.cpython-311.pyc
+¦   ¦       ¦           tie_ranking_leaderboard.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---leaderboard-3.7.3-py3.11.egg-info
+¦   ¦       ¦       dependency_links.txt
+¦   ¦       ¦       installed-files.txt
+¦   ¦       ¦       PKG-INFO
+¦   ¦       ¦       requires.txt
+¦   ¦       ¦       SOURCES.txt
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       
+¦   ¦       +---magic_filter
+¦   ¦       ¦   ¦   attrdict.py
+¦   ¦       ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   helper.py
+¦   ¦       ¦   ¦   magic.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   util.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---operations
+¦   ¦       ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   call.py
+¦   ¦       ¦   ¦   ¦   cast.py
+¦   ¦       ¦   ¦   ¦   combination.py
+¦   ¦       ¦   ¦   ¦   comparator.py
+¦   ¦       ¦   ¦   ¦   extract.py
+¦   ¦       ¦   ¦   ¦   function.py
+¦   ¦       ¦   ¦   ¦   getattr.py
+¦   ¦       ¦   ¦   ¦   getitem.py
+¦   ¦       ¦   ¦   ¦   selector.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           base.cpython-311.pyc
+¦   ¦       ¦   ¦           call.cpython-311.pyc
+¦   ¦       ¦   ¦           cast.cpython-311.pyc
+¦   ¦       ¦   ¦           combination.cpython-311.pyc
+¦   ¦       ¦   ¦           comparator.cpython-311.pyc
+¦   ¦       ¦   ¦           extract.cpython-311.pyc
+¦   ¦       ¦   ¦           function.cpython-311.pyc
+¦   ¦       ¦   ¦           getattr.cpython-311.pyc
+¦   ¦       ¦   ¦           getitem.cpython-311.pyc
+¦   ¦       ¦   ¦           selector.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           attrdict.cpython-311.pyc
+¦   ¦       ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦           helper.cpython-311.pyc
+¦   ¦       ¦           magic.cpython-311.pyc
+¦   ¦       ¦           util.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---magic_filter-1.0.12.dist-info
+¦   ¦       ¦   ¦   INSTALLER
+¦   ¦       ¦   ¦   METADATA
+¦   ¦       ¦   ¦   RECORD
+¦   ¦       ¦   ¦   WHEEL
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---licenses
+¦   ¦       ¦           LICENSE
+¦   ¦       ¦           
+¦   ¦       +---multidict
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   _abc.py
+¦   ¦       ¦   ¦   _compat.py
+¦   ¦       ¦   ¦   _multidict.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   _multidict_py.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           _abc.cpython-311.pyc
+¦   ¦       ¦           _compat.cpython-311.pyc
+¦   ¦       ¦           _multidict_py.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---multidict-6.4.3.dist-info
+¦   ¦       ¦   ¦   INSTALLER
+¦   ¦       ¦   ¦   METADATA
+¦   ¦       ¦   ¦   RECORD
+¦   ¦       ¦   ¦   top_level.txt
+¦   ¦       ¦   ¦   WHEEL
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---licenses
+¦   ¦       ¦           LICENSE
+¦   ¦       ¦           
+¦   ¦       +---pip
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   __pip-runner__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---_internal
+¦   ¦       ¦   ¦   ¦   build_env.py
+¦   ¦       ¦   ¦   ¦   cache.py
+¦   ¦       ¦   ¦   ¦   configuration.py
+¦   ¦       ¦   ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   ¦   main.py
+¦   ¦       ¦   ¦   ¦   pyproject.py
+¦   ¦       ¦   ¦   ¦   self_outdated_check.py
+¦   ¦       ¦   ¦   ¦   wheel_builder.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---cli
+¦   ¦       ¦   ¦   ¦   ¦   autocompletion.py
+¦   ¦       ¦   ¦   ¦   ¦   base_command.py
+¦   ¦       ¦   ¦   ¦   ¦   cmdoptions.py
+¦   ¦       ¦   ¦   ¦   ¦   command_context.py
+¦   ¦       ¦   ¦   ¦   ¦   main.py
+¦   ¦       ¦   ¦   ¦   ¦   main_parser.py
+¦   ¦       ¦   ¦   ¦   ¦   parser.py
+¦   ¦       ¦   ¦   ¦   ¦   progress_bars.py
+¦   ¦       ¦   ¦   ¦   ¦   req_command.py
+¦   ¦       ¦   ¦   ¦   ¦   spinners.py
+¦   ¦       ¦   ¦   ¦   ¦   status_codes.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           autocompletion.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           base_command.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           cmdoptions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           command_context.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           main.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           main_parser.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           parser.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           progress_bars.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           req_command.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           spinners.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           status_codes.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---commands
+¦   ¦       ¦   ¦   ¦   ¦   cache.py
+¦   ¦       ¦   ¦   ¦   ¦   check.py
+¦   ¦       ¦   ¦   ¦   ¦   completion.py
+¦   ¦       ¦   ¦   ¦   ¦   configuration.py
+¦   ¦       ¦   ¦   ¦   ¦   debug.py
+¦   ¦       ¦   ¦   ¦   ¦   download.py
+¦   ¦       ¦   ¦   ¦   ¦   freeze.py
+¦   ¦       ¦   ¦   ¦   ¦   hash.py
+¦   ¦       ¦   ¦   ¦   ¦   help.py
+¦   ¦       ¦   ¦   ¦   ¦   index.py
+¦   ¦       ¦   ¦   ¦   ¦   inspect.py
+¦   ¦       ¦   ¦   ¦   ¦   install.py
+¦   ¦       ¦   ¦   ¦   ¦   list.py
+¦   ¦       ¦   ¦   ¦   ¦   search.py
+¦   ¦       ¦   ¦   ¦   ¦   show.py
+¦   ¦       ¦   ¦   ¦   ¦   uninstall.py
+¦   ¦       ¦   ¦   ¦   ¦   wheel.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           cache.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           check.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           completion.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           configuration.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           debug.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           download.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           freeze.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           hash.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           help.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           index.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           inspect.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           install.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           list.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           search.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           show.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           uninstall.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           wheel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---distributions
+¦   ¦       ¦   ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   ¦   installed.py
+¦   ¦       ¦   ¦   ¦   ¦   sdist.py
+¦   ¦       ¦   ¦   ¦   ¦   wheel.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           base.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           installed.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           sdist.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           wheel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---index
+¦   ¦       ¦   ¦   ¦   ¦   collector.py
+¦   ¦       ¦   ¦   ¦   ¦   package_finder.py
+¦   ¦       ¦   ¦   ¦   ¦   sources.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           collector.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           package_finder.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           sources.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---locations
+¦   ¦       ¦   ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   ¦   _distutils.py
+¦   ¦       ¦   ¦   ¦   ¦   _sysconfig.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           base.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _distutils.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _sysconfig.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---metadata
+¦   ¦       ¦   ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   ¦   pkg_resources.py
+¦   ¦       ¦   ¦   ¦   ¦   _json.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---importlib
+¦   ¦       ¦   ¦   ¦   ¦   ¦   _compat.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   _dists.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   _envs.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           _compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           _dists.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           _envs.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           base.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           pkg_resources.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _json.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---models
+¦   ¦       ¦   ¦   ¦   ¦   candidate.py
+¦   ¦       ¦   ¦   ¦   ¦   direct_url.py
+¦   ¦       ¦   ¦   ¦   ¦   format_control.py
+¦   ¦       ¦   ¦   ¦   ¦   index.py
+¦   ¦       ¦   ¦   ¦   ¦   installation_report.py
+¦   ¦       ¦   ¦   ¦   ¦   link.py
+¦   ¦       ¦   ¦   ¦   ¦   scheme.py
+¦   ¦       ¦   ¦   ¦   ¦   search_scope.py
+¦   ¦       ¦   ¦   ¦   ¦   selection_prefs.py
+¦   ¦       ¦   ¦   ¦   ¦   target_python.py
+¦   ¦       ¦   ¦   ¦   ¦   wheel.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           candidate.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           direct_url.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           format_control.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           index.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           installation_report.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           link.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           scheme.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           search_scope.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           selection_prefs.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           target_python.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           wheel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---network
+¦   ¦       ¦   ¦   ¦   ¦   auth.py
+¦   ¦       ¦   ¦   ¦   ¦   cache.py
+¦   ¦       ¦   ¦   ¦   ¦   download.py
+¦   ¦       ¦   ¦   ¦   ¦   lazy_wheel.py
+¦   ¦       ¦   ¦   ¦   ¦   session.py
+¦   ¦       ¦   ¦   ¦   ¦   utils.py
+¦   ¦       ¦   ¦   ¦   ¦   xmlrpc.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           auth.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           cache.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           download.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           lazy_wheel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           session.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           utils.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           xmlrpc.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---operations
+¦   ¦       ¦   ¦   ¦   ¦   check.py
+¦   ¦       ¦   ¦   ¦   ¦   freeze.py
+¦   ¦       ¦   ¦   ¦   ¦   prepare.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---build
+¦   ¦       ¦   ¦   ¦   ¦   ¦   build_tracker.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   metadata.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   metadata_editable.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   metadata_legacy.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   wheel.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   wheel_editable.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   wheel_legacy.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           build_tracker.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           metadata.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           metadata_editable.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           metadata_legacy.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           wheel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           wheel_editable.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           wheel_legacy.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---install
+¦   ¦       ¦   ¦   ¦   ¦   ¦   editable_legacy.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   legacy.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   wheel.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           editable_legacy.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           legacy.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           wheel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           check.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           freeze.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           prepare.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---req
+¦   ¦       ¦   ¦   ¦   ¦   constructors.py
+¦   ¦       ¦   ¦   ¦   ¦   req_file.py
+¦   ¦       ¦   ¦   ¦   ¦   req_install.py
+¦   ¦       ¦   ¦   ¦   ¦   req_set.py
+¦   ¦       ¦   ¦   ¦   ¦   req_uninstall.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           constructors.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           req_file.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           req_install.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           req_set.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           req_uninstall.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---resolution
+¦   ¦       ¦   ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---legacy
+¦   ¦       ¦   ¦   ¦   ¦   ¦   resolver.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           resolver.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---resolvelib
+¦   ¦       ¦   ¦   ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   candidates.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   factory.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   found_candidates.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   provider.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   reporter.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   requirements.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   resolver.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           base.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           candidates.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           factory.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           found_candidates.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           provider.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           reporter.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           requirements.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           resolver.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           base.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---utils
+¦   ¦       ¦   ¦   ¦   ¦   appdirs.py
+¦   ¦       ¦   ¦   ¦   ¦   compat.py
+¦   ¦       ¦   ¦   ¦   ¦   compatibility_tags.py
+¦   ¦       ¦   ¦   ¦   ¦   datetime.py
+¦   ¦       ¦   ¦   ¦   ¦   deprecation.py
+¦   ¦       ¦   ¦   ¦   ¦   direct_url_helpers.py
+¦   ¦       ¦   ¦   ¦   ¦   distutils_args.py
+¦   ¦       ¦   ¦   ¦   ¦   egg_link.py
+¦   ¦       ¦   ¦   ¦   ¦   encoding.py
+¦   ¦       ¦   ¦   ¦   ¦   entrypoints.py
+¦   ¦       ¦   ¦   ¦   ¦   filesystem.py
+¦   ¦       ¦   ¦   ¦   ¦   filetypes.py
+¦   ¦       ¦   ¦   ¦   ¦   glibc.py
+¦   ¦       ¦   ¦   ¦   ¦   hashes.py
+¦   ¦       ¦   ¦   ¦   ¦   inject_securetransport.py
+¦   ¦       ¦   ¦   ¦   ¦   logging.py
+¦   ¦       ¦   ¦   ¦   ¦   misc.py
+¦   ¦       ¦   ¦   ¦   ¦   models.py
+¦   ¦       ¦   ¦   ¦   ¦   packaging.py
+¦   ¦       ¦   ¦   ¦   ¦   setuptools_build.py
+¦   ¦       ¦   ¦   ¦   ¦   subprocess.py
+¦   ¦       ¦   ¦   ¦   ¦   temp_dir.py
+¦   ¦       ¦   ¦   ¦   ¦   unpacking.py
+¦   ¦       ¦   ¦   ¦   ¦   urls.py
+¦   ¦       ¦   ¦   ¦   ¦   virtualenv.py
+¦   ¦       ¦   ¦   ¦   ¦   wheel.py
+¦   ¦       ¦   ¦   ¦   ¦   _log.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           appdirs.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           compatibility_tags.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           datetime.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           deprecation.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           direct_url_helpers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           distutils_args.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           egg_link.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           encoding.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           entrypoints.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           filesystem.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           filetypes.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           glibc.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           hashes.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           inject_securetransport.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           logging.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           misc.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           models.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           packaging.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           setuptools_build.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           subprocess.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           temp_dir.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           unpacking.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           urls.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           virtualenv.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           wheel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _log.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---vcs
+¦   ¦       ¦   ¦   ¦   ¦   bazaar.py
+¦   ¦       ¦   ¦   ¦   ¦   git.py
+¦   ¦       ¦   ¦   ¦   ¦   mercurial.py
+¦   ¦       ¦   ¦   ¦   ¦   subversion.py
+¦   ¦       ¦   ¦   ¦   ¦   versioncontrol.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           bazaar.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           git.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           mercurial.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           subversion.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           versioncontrol.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           build_env.cpython-311.pyc
+¦   ¦       ¦   ¦           cache.cpython-311.pyc
+¦   ¦       ¦   ¦           configuration.cpython-311.pyc
+¦   ¦       ¦   ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦           main.cpython-311.pyc
+¦   ¦       ¦   ¦           pyproject.cpython-311.pyc
+¦   ¦       ¦   ¦           self_outdated_check.cpython-311.pyc
+¦   ¦       ¦   ¦           wheel_builder.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---_vendor
+¦   ¦       ¦   ¦   ¦   six.py
+¦   ¦       ¦   ¦   ¦   typing_extensions.py
+¦   ¦       ¦   ¦   ¦   vendor.txt
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---cachecontrol
+¦   ¦       ¦   ¦   ¦   ¦   adapter.py
+¦   ¦       ¦   ¦   ¦   ¦   cache.py
+¦   ¦       ¦   ¦   ¦   ¦   compat.py
+¦   ¦       ¦   ¦   ¦   ¦   controller.py
+¦   ¦       ¦   ¦   ¦   ¦   filewrapper.py
+¦   ¦       ¦   ¦   ¦   ¦   heuristics.py
+¦   ¦       ¦   ¦   ¦   ¦   serialize.py
+¦   ¦       ¦   ¦   ¦   ¦   wrapper.py
+¦   ¦       ¦   ¦   ¦   ¦   _cmd.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---caches
+¦   ¦       ¦   ¦   ¦   ¦   ¦   file_cache.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   redis_cache.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           file_cache.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           redis_cache.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           adapter.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           cache.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           controller.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           filewrapper.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           heuristics.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           serialize.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           wrapper.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _cmd.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---certifi
+¦   ¦       ¦   ¦   ¦   ¦   cacert.pem
+¦   ¦       ¦   ¦   ¦   ¦   core.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           core.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __main__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---chardet
+¦   ¦       ¦   ¦   ¦   ¦   big5freq.py
+¦   ¦       ¦   ¦   ¦   ¦   big5prober.py
+¦   ¦       ¦   ¦   ¦   ¦   chardistribution.py
+¦   ¦       ¦   ¦   ¦   ¦   charsetgroupprober.py
+¦   ¦       ¦   ¦   ¦   ¦   charsetprober.py
+¦   ¦       ¦   ¦   ¦   ¦   codingstatemachine.py
+¦   ¦       ¦   ¦   ¦   ¦   cp949prober.py
+¦   ¦       ¦   ¦   ¦   ¦   enums.py
+¦   ¦       ¦   ¦   ¦   ¦   escprober.py
+¦   ¦       ¦   ¦   ¦   ¦   escsm.py
+¦   ¦       ¦   ¦   ¦   ¦   eucjpprober.py
+¦   ¦       ¦   ¦   ¦   ¦   euckrfreq.py
+¦   ¦       ¦   ¦   ¦   ¦   euckrprober.py
+¦   ¦       ¦   ¦   ¦   ¦   euctwfreq.py
+¦   ¦       ¦   ¦   ¦   ¦   euctwprober.py
+¦   ¦       ¦   ¦   ¦   ¦   gb2312freq.py
+¦   ¦       ¦   ¦   ¦   ¦   gb2312prober.py
+¦   ¦       ¦   ¦   ¦   ¦   hebrewprober.py
+¦   ¦       ¦   ¦   ¦   ¦   jisfreq.py
+¦   ¦       ¦   ¦   ¦   ¦   johabfreq.py
+¦   ¦       ¦   ¦   ¦   ¦   johabprober.py
+¦   ¦       ¦   ¦   ¦   ¦   jpcntx.py
+¦   ¦       ¦   ¦   ¦   ¦   langbulgarianmodel.py
+¦   ¦       ¦   ¦   ¦   ¦   langgreekmodel.py
+¦   ¦       ¦   ¦   ¦   ¦   langhebrewmodel.py
+¦   ¦       ¦   ¦   ¦   ¦   langhungarianmodel.py
+¦   ¦       ¦   ¦   ¦   ¦   langrussianmodel.py
+¦   ¦       ¦   ¦   ¦   ¦   langthaimodel.py
+¦   ¦       ¦   ¦   ¦   ¦   langturkishmodel.py
+¦   ¦       ¦   ¦   ¦   ¦   latin1prober.py
+¦   ¦       ¦   ¦   ¦   ¦   mbcharsetprober.py
+¦   ¦       ¦   ¦   ¦   ¦   mbcsgroupprober.py
+¦   ¦       ¦   ¦   ¦   ¦   mbcssm.py
+¦   ¦       ¦   ¦   ¦   ¦   sbcharsetprober.py
+¦   ¦       ¦   ¦   ¦   ¦   sbcsgroupprober.py
+¦   ¦       ¦   ¦   ¦   ¦   sjisprober.py
+¦   ¦       ¦   ¦   ¦   ¦   universaldetector.py
+¦   ¦       ¦   ¦   ¦   ¦   utf1632prober.py
+¦   ¦       ¦   ¦   ¦   ¦   utf8prober.py
+¦   ¦       ¦   ¦   ¦   ¦   version.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---cli
+¦   ¦       ¦   ¦   ¦   ¦   ¦   chardetect.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           chardetect.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---metadata
+¦   ¦       ¦   ¦   ¦   ¦   ¦   languages.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           languages.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           big5freq.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           big5prober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           chardistribution.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           charsetgroupprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           charsetprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           codingstatemachine.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           cp949prober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           enums.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           escprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           escsm.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           eucjpprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           euckrfreq.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           euckrprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           euctwfreq.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           euctwprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           gb2312freq.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           gb2312prober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           hebrewprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           jisfreq.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           johabfreq.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           johabprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           jpcntx.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           langbulgarianmodel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           langgreekmodel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           langhebrewmodel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           langhungarianmodel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           langrussianmodel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           langthaimodel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           langturkishmodel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           latin1prober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           mbcharsetprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           mbcsgroupprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           mbcssm.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           sbcharsetprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           sbcsgroupprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           sjisprober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           universaldetector.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           utf1632prober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           utf8prober.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           version.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---colorama
+¦   ¦       ¦   ¦   ¦   ¦   ansi.py
+¦   ¦       ¦   ¦   ¦   ¦   ansitowin32.py
+¦   ¦       ¦   ¦   ¦   ¦   initialise.py
+¦   ¦       ¦   ¦   ¦   ¦   win32.py
+¦   ¦       ¦   ¦   ¦   ¦   winterm.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           ansi.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           ansitowin32.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           initialise.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           win32.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           winterm.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---distlib
+¦   ¦       ¦   ¦   ¦   ¦   compat.py
+¦   ¦       ¦   ¦   ¦   ¦   database.py
+¦   ¦       ¦   ¦   ¦   ¦   index.py
+¦   ¦       ¦   ¦   ¦   ¦   locators.py
+¦   ¦       ¦   ¦   ¦   ¦   manifest.py
+¦   ¦       ¦   ¦   ¦   ¦   markers.py
+¦   ¦       ¦   ¦   ¦   ¦   metadata.py
+¦   ¦       ¦   ¦   ¦   ¦   resources.py
+¦   ¦       ¦   ¦   ¦   ¦   scripts.py
+¦   ¦       ¦   ¦   ¦   ¦   t32.exe
+¦   ¦       ¦   ¦   ¦   ¦   t64-arm.exe
+¦   ¦       ¦   ¦   ¦   ¦   t64.exe
+¦   ¦       ¦   ¦   ¦   ¦   util.py
+¦   ¦       ¦   ¦   ¦   ¦   version.py
+¦   ¦       ¦   ¦   ¦   ¦   w32.exe
+¦   ¦       ¦   ¦   ¦   ¦   w64-arm.exe
+¦   ¦       ¦   ¦   ¦   ¦   w64.exe
+¦   ¦       ¦   ¦   ¦   ¦   wheel.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           database.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           index.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           locators.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           manifest.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           markers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           metadata.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           resources.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           scripts.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           util.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           version.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           wheel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---distro
+¦   ¦       ¦   ¦   ¦   ¦   distro.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           distro.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __main__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---idna
+¦   ¦       ¦   ¦   ¦   ¦   codec.py
+¦   ¦       ¦   ¦   ¦   ¦   compat.py
+¦   ¦       ¦   ¦   ¦   ¦   core.py
+¦   ¦       ¦   ¦   ¦   ¦   idnadata.py
+¦   ¦       ¦   ¦   ¦   ¦   intranges.py
+¦   ¦       ¦   ¦   ¦   ¦   package_data.py
+¦   ¦       ¦   ¦   ¦   ¦   uts46data.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           codec.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           core.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           idnadata.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           intranges.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           package_data.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           uts46data.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---msgpack
+¦   ¦       ¦   ¦   ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   ¦   ¦   ext.py
+¦   ¦       ¦   ¦   ¦   ¦   fallback.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           ext.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           fallback.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---packaging
+¦   ¦       ¦   ¦   ¦   ¦   markers.py
+¦   ¦       ¦   ¦   ¦   ¦   requirements.py
+¦   ¦       ¦   ¦   ¦   ¦   specifiers.py
+¦   ¦       ¦   ¦   ¦   ¦   tags.py
+¦   ¦       ¦   ¦   ¦   ¦   utils.py
+¦   ¦       ¦   ¦   ¦   ¦   version.py
+¦   ¦       ¦   ¦   ¦   ¦   _manylinux.py
+¦   ¦       ¦   ¦   ¦   ¦   _musllinux.py
+¦   ¦       ¦   ¦   ¦   ¦   _structures.py
+¦   ¦       ¦   ¦   ¦   ¦   __about__.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           markers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           requirements.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           specifiers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           tags.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           utils.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           version.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _manylinux.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _musllinux.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _structures.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __about__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---pep517
+¦   ¦       ¦   ¦   ¦   ¦   build.py
+¦   ¦       ¦   ¦   ¦   ¦   check.py
+¦   ¦       ¦   ¦   ¦   ¦   colorlog.py
+¦   ¦       ¦   ¦   ¦   ¦   dirtools.py
+¦   ¦       ¦   ¦   ¦   ¦   envbuild.py
+¦   ¦       ¦   ¦   ¦   ¦   meta.py
+¦   ¦       ¦   ¦   ¦   ¦   wrappers.py
+¦   ¦       ¦   ¦   ¦   ¦   _compat.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---in_process
+¦   ¦       ¦   ¦   ¦   ¦   ¦   _in_process.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           _in_process.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           build.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           check.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           colorlog.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           dirtools.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           envbuild.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           meta.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           wrappers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---pkg_resources
+¦   ¦       ¦   ¦   ¦   ¦   py31compat.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           py31compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---platformdirs
+¦   ¦       ¦   ¦   ¦   ¦   android.py
+¦   ¦       ¦   ¦   ¦   ¦   api.py
+¦   ¦       ¦   ¦   ¦   ¦   macos.py
+¦   ¦       ¦   ¦   ¦   ¦   unix.py
+¦   ¦       ¦   ¦   ¦   ¦   version.py
+¦   ¦       ¦   ¦   ¦   ¦   windows.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           android.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           api.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           macos.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           unix.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           version.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           windows.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __main__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---pygments
+¦   ¦       ¦   ¦   ¦   ¦   cmdline.py
+¦   ¦       ¦   ¦   ¦   ¦   console.py
+¦   ¦       ¦   ¦   ¦   ¦   filter.py
+¦   ¦       ¦   ¦   ¦   ¦   formatter.py
+¦   ¦       ¦   ¦   ¦   ¦   lexer.py
+¦   ¦       ¦   ¦   ¦   ¦   modeline.py
+¦   ¦       ¦   ¦   ¦   ¦   plugin.py
+¦   ¦       ¦   ¦   ¦   ¦   regexopt.py
+¦   ¦       ¦   ¦   ¦   ¦   scanner.py
+¦   ¦       ¦   ¦   ¦   ¦   sphinxext.py
+¦   ¦       ¦   ¦   ¦   ¦   style.py
+¦   ¦       ¦   ¦   ¦   ¦   token.py
+¦   ¦       ¦   ¦   ¦   ¦   unistring.py
+¦   ¦       ¦   ¦   ¦   ¦   util.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---filters
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---formatters
+¦   ¦       ¦   ¦   ¦   ¦   ¦   bbcode.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   groff.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   html.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   img.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   irc.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   latex.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   other.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   pangomarkup.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   rtf.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   svg.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   terminal.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   terminal256.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   _mapping.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           bbcode.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           groff.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           html.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           img.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           irc.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           latex.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           other.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           pangomarkup.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           rtf.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           svg.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           terminal.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           terminal256.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           _mapping.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---lexers
+¦   ¦       ¦   ¦   ¦   ¦   ¦   python.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   _mapping.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           python.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           _mapping.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---styles
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           cmdline.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           console.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           filter.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           formatter.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           lexer.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           modeline.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           plugin.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           regexopt.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           scanner.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           sphinxext.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           style.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           token.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           unistring.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           util.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __main__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---pyparsing
+¦   ¦       ¦   ¦   ¦   ¦   actions.py
+¦   ¦       ¦   ¦   ¦   ¦   common.py
+¦   ¦       ¦   ¦   ¦   ¦   core.py
+¦   ¦       ¦   ¦   ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   ¦   ¦   helpers.py
+¦   ¦       ¦   ¦   ¦   ¦   results.py
+¦   ¦       ¦   ¦   ¦   ¦   testing.py
+¦   ¦       ¦   ¦   ¦   ¦   unicode.py
+¦   ¦       ¦   ¦   ¦   ¦   util.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---diagram
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           actions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           common.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           core.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           helpers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           results.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           testing.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           unicode.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           util.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---requests
+¦   ¦       ¦   ¦   ¦   ¦   adapters.py
+¦   ¦       ¦   ¦   ¦   ¦   api.py
+¦   ¦       ¦   ¦   ¦   ¦   auth.py
+¦   ¦       ¦   ¦   ¦   ¦   certs.py
+¦   ¦       ¦   ¦   ¦   ¦   compat.py
+¦   ¦       ¦   ¦   ¦   ¦   cookies.py
+¦   ¦       ¦   ¦   ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   ¦   ¦   help.py
+¦   ¦       ¦   ¦   ¦   ¦   hooks.py
+¦   ¦       ¦   ¦   ¦   ¦   models.py
+¦   ¦       ¦   ¦   ¦   ¦   packages.py
+¦   ¦       ¦   ¦   ¦   ¦   sessions.py
+¦   ¦       ¦   ¦   ¦   ¦   status_codes.py
+¦   ¦       ¦   ¦   ¦   ¦   structures.py
+¦   ¦       ¦   ¦   ¦   ¦   utils.py
+¦   ¦       ¦   ¦   ¦   ¦   _internal_utils.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   __version__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           adapters.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           api.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           auth.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           certs.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           cookies.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           help.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           hooks.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           models.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           packages.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           sessions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           status_codes.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           structures.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           utils.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _internal_utils.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __version__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---resolvelib
+¦   ¦       ¦   ¦   ¦   ¦   providers.py
+¦   ¦       ¦   ¦   ¦   ¦   reporters.py
+¦   ¦       ¦   ¦   ¦   ¦   resolvers.py
+¦   ¦       ¦   ¦   ¦   ¦   structs.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---compat
+¦   ¦       ¦   ¦   ¦   ¦   ¦   collections_abc.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           collections_abc.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           providers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           reporters.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           resolvers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           structs.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---rich
+¦   ¦       ¦   ¦   ¦   ¦   abc.py
+¦   ¦       ¦   ¦   ¦   ¦   align.py
+¦   ¦       ¦   ¦   ¦   ¦   ansi.py
+¦   ¦       ¦   ¦   ¦   ¦   bar.py
+¦   ¦       ¦   ¦   ¦   ¦   box.py
+¦   ¦       ¦   ¦   ¦   ¦   cells.py
+¦   ¦       ¦   ¦   ¦   ¦   color.py
+¦   ¦       ¦   ¦   ¦   ¦   color_triplet.py
+¦   ¦       ¦   ¦   ¦   ¦   columns.py
+¦   ¦       ¦   ¦   ¦   ¦   console.py
+¦   ¦       ¦   ¦   ¦   ¦   constrain.py
+¦   ¦       ¦   ¦   ¦   ¦   containers.py
+¦   ¦       ¦   ¦   ¦   ¦   control.py
+¦   ¦       ¦   ¦   ¦   ¦   default_styles.py
+¦   ¦       ¦   ¦   ¦   ¦   diagnose.py
+¦   ¦       ¦   ¦   ¦   ¦   emoji.py
+¦   ¦       ¦   ¦   ¦   ¦   errors.py
+¦   ¦       ¦   ¦   ¦   ¦   filesize.py
+¦   ¦       ¦   ¦   ¦   ¦   file_proxy.py
+¦   ¦       ¦   ¦   ¦   ¦   highlighter.py
+¦   ¦       ¦   ¦   ¦   ¦   json.py
+¦   ¦       ¦   ¦   ¦   ¦   jupyter.py
+¦   ¦       ¦   ¦   ¦   ¦   layout.py
+¦   ¦       ¦   ¦   ¦   ¦   live.py
+¦   ¦       ¦   ¦   ¦   ¦   live_render.py
+¦   ¦       ¦   ¦   ¦   ¦   logging.py
+¦   ¦       ¦   ¦   ¦   ¦   markup.py
+¦   ¦       ¦   ¦   ¦   ¦   measure.py
+¦   ¦       ¦   ¦   ¦   ¦   padding.py
+¦   ¦       ¦   ¦   ¦   ¦   pager.py
+¦   ¦       ¦   ¦   ¦   ¦   palette.py
+¦   ¦       ¦   ¦   ¦   ¦   panel.py
+¦   ¦       ¦   ¦   ¦   ¦   pretty.py
+¦   ¦       ¦   ¦   ¦   ¦   progress.py
+¦   ¦       ¦   ¦   ¦   ¦   progress_bar.py
+¦   ¦       ¦   ¦   ¦   ¦   prompt.py
+¦   ¦       ¦   ¦   ¦   ¦   protocol.py
+¦   ¦       ¦   ¦   ¦   ¦   region.py
+¦   ¦       ¦   ¦   ¦   ¦   repr.py
+¦   ¦       ¦   ¦   ¦   ¦   rule.py
+¦   ¦       ¦   ¦   ¦   ¦   scope.py
+¦   ¦       ¦   ¦   ¦   ¦   screen.py
+¦   ¦       ¦   ¦   ¦   ¦   segment.py
+¦   ¦       ¦   ¦   ¦   ¦   spinner.py
+¦   ¦       ¦   ¦   ¦   ¦   status.py
+¦   ¦       ¦   ¦   ¦   ¦   style.py
+¦   ¦       ¦   ¦   ¦   ¦   styled.py
+¦   ¦       ¦   ¦   ¦   ¦   syntax.py
+¦   ¦       ¦   ¦   ¦   ¦   table.py
+¦   ¦       ¦   ¦   ¦   ¦   terminal_theme.py
+¦   ¦       ¦   ¦   ¦   ¦   text.py
+¦   ¦       ¦   ¦   ¦   ¦   theme.py
+¦   ¦       ¦   ¦   ¦   ¦   themes.py
+¦   ¦       ¦   ¦   ¦   ¦   traceback.py
+¦   ¦       ¦   ¦   ¦   ¦   tree.py
+¦   ¦       ¦   ¦   ¦   ¦   _cell_widths.py
+¦   ¦       ¦   ¦   ¦   ¦   _emoji_codes.py
+¦   ¦       ¦   ¦   ¦   ¦   _emoji_replace.py
+¦   ¦       ¦   ¦   ¦   ¦   _export_format.py
+¦   ¦       ¦   ¦   ¦   ¦   _extension.py
+¦   ¦       ¦   ¦   ¦   ¦   _inspect.py
+¦   ¦       ¦   ¦   ¦   ¦   _log_render.py
+¦   ¦       ¦   ¦   ¦   ¦   _loop.py
+¦   ¦       ¦   ¦   ¦   ¦   _palettes.py
+¦   ¦       ¦   ¦   ¦   ¦   _pick.py
+¦   ¦       ¦   ¦   ¦   ¦   _ratio.py
+¦   ¦       ¦   ¦   ¦   ¦   _spinners.py
+¦   ¦       ¦   ¦   ¦   ¦   _stack.py
+¦   ¦       ¦   ¦   ¦   ¦   _timer.py
+¦   ¦       ¦   ¦   ¦   ¦   _win32_console.py
+¦   ¦       ¦   ¦   ¦   ¦   _windows.py
+¦   ¦       ¦   ¦   ¦   ¦   _windows_renderer.py
+¦   ¦       ¦   ¦   ¦   ¦   _wrap.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   __main__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           abc.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           align.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           ansi.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           bar.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           box.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           cells.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           color.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           color_triplet.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           columns.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           console.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           constrain.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           containers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           control.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           default_styles.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           diagnose.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           emoji.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           errors.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           filesize.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           file_proxy.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           highlighter.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           json.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           jupyter.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           layout.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           live.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           live_render.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           logging.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           markup.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           measure.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           padding.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           pager.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           palette.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           panel.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           pretty.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           progress.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           progress_bar.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           prompt.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           protocol.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           region.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           repr.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           rule.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           scope.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           screen.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           segment.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           spinner.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           status.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           style.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           styled.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           syntax.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           table.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           terminal_theme.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           text.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           theme.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           themes.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           traceback.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           tree.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _cell_widths.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _emoji_codes.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _emoji_replace.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _export_format.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _extension.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _inspect.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _log_render.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _loop.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _palettes.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _pick.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _ratio.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _spinners.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _stack.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _timer.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _win32_console.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _windows.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _windows_renderer.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _wrap.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __main__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---tenacity
+¦   ¦       ¦   ¦   ¦   ¦   after.py
+¦   ¦       ¦   ¦   ¦   ¦   before.py
+¦   ¦       ¦   ¦   ¦   ¦   before_sleep.py
+¦   ¦       ¦   ¦   ¦   ¦   nap.py
+¦   ¦       ¦   ¦   ¦   ¦   retry.py
+¦   ¦       ¦   ¦   ¦   ¦   stop.py
+¦   ¦       ¦   ¦   ¦   ¦   tornadoweb.py
+¦   ¦       ¦   ¦   ¦   ¦   wait.py
+¦   ¦       ¦   ¦   ¦   ¦   _asyncio.py
+¦   ¦       ¦   ¦   ¦   ¦   _utils.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           after.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           before.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           before_sleep.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           nap.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           retry.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           stop.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           tornadoweb.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           wait.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _asyncio.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _utils.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---tomli
+¦   ¦       ¦   ¦   ¦   ¦   _parser.py
+¦   ¦       ¦   ¦   ¦   ¦   _re.py
+¦   ¦       ¦   ¦   ¦   ¦   _types.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           _parser.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _re.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _types.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---urllib3
+¦   ¦       ¦   ¦   ¦   ¦   connection.py
+¦   ¦       ¦   ¦   ¦   ¦   connectionpool.py
+¦   ¦       ¦   ¦   ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   ¦   ¦   fields.py
+¦   ¦       ¦   ¦   ¦   ¦   filepost.py
+¦   ¦       ¦   ¦   ¦   ¦   poolmanager.py
+¦   ¦       ¦   ¦   ¦   ¦   request.py
+¦   ¦       ¦   ¦   ¦   ¦   response.py
+¦   ¦       ¦   ¦   ¦   ¦   _collections.py
+¦   ¦       ¦   ¦   ¦   ¦   _version.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---contrib
+¦   ¦       ¦   ¦   ¦   ¦   ¦   appengine.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ntlmpool.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   pyopenssl.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   securetransport.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   socks.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   _appengine_environ.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---_securetransport
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ¦   bindings.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ¦   low_level.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦   ¦           bindings.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦   ¦           low_level.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           appengine.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           ntlmpool.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           pyopenssl.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           securetransport.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           socks.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           _appengine_environ.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---packages
+¦   ¦       ¦   ¦   ¦   ¦   ¦   six.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---backports
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ¦   makefile.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦   ¦           makefile.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           six.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---util
+¦   ¦       ¦   ¦   ¦   ¦   ¦   connection.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   proxy.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   queue.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   request.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   response.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   retry.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ssltransport.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ssl_.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ssl_match_hostname.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   timeout.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   url.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   wait.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           connection.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           proxy.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           queue.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           request.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           response.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           retry.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           ssltransport.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           ssl_.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           ssl_match_hostname.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           timeout.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           url.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           wait.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           connection.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           connectionpool.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           fields.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           filepost.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           poolmanager.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           request.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           response.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _collections.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _version.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---webencodings
+¦   ¦       ¦   ¦   ¦   ¦   labels.py
+¦   ¦       ¦   ¦   ¦   ¦   mklabels.py
+¦   ¦       ¦   ¦   ¦   ¦   tests.py
+¦   ¦       ¦   ¦   ¦   ¦   x_user_defined.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           labels.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           mklabels.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           tests.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           x_user_defined.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           six.cpython-311.pyc
+¦   ¦       ¦   ¦           typing_extensions.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           __main__.cpython-311.pyc
+¦   ¦       ¦           __pip-runner__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---pip-22.3.dist-info
+¦   ¦       ¦       entry_points.txt
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE.txt
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       REQUESTED
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---pkg_resources
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---extern
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---_vendor
+¦   ¦       ¦   ¦   ¦   appdirs.py
+¦   ¦       ¦   ¦   ¦   zipp.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---importlib_resources
+¦   ¦       ¦   ¦   ¦   ¦   abc.py
+¦   ¦       ¦   ¦   ¦   ¦   readers.py
+¦   ¦       ¦   ¦   ¦   ¦   simple.py
+¦   ¦       ¦   ¦   ¦   ¦   _adapters.py
+¦   ¦       ¦   ¦   ¦   ¦   _common.py
+¦   ¦       ¦   ¦   ¦   ¦   _compat.py
+¦   ¦       ¦   ¦   ¦   ¦   _itertools.py
+¦   ¦       ¦   ¦   ¦   ¦   _legacy.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           abc.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           readers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           simple.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _adapters.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _common.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _itertools.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _legacy.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---jaraco
+¦   ¦       ¦   ¦   ¦   ¦   context.py
+¦   ¦       ¦   ¦   ¦   ¦   functools.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---text
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           context.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           functools.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---more_itertools
+¦   ¦       ¦   ¦   ¦   ¦   more.py
+¦   ¦       ¦   ¦   ¦   ¦   recipes.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           more.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           recipes.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---packaging
+¦   ¦       ¦   ¦   ¦   ¦   markers.py
+¦   ¦       ¦   ¦   ¦   ¦   requirements.py
+¦   ¦       ¦   ¦   ¦   ¦   specifiers.py
+¦   ¦       ¦   ¦   ¦   ¦   tags.py
+¦   ¦       ¦   ¦   ¦   ¦   utils.py
+¦   ¦       ¦   ¦   ¦   ¦   version.py
+¦   ¦       ¦   ¦   ¦   ¦   _manylinux.py
+¦   ¦       ¦   ¦   ¦   ¦   _musllinux.py
+¦   ¦       ¦   ¦   ¦   ¦   _structures.py
+¦   ¦       ¦   ¦   ¦   ¦   __about__.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           markers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           requirements.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           specifiers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           tags.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           utils.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           version.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _manylinux.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _musllinux.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _structures.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __about__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---pyparsing
+¦   ¦       ¦   ¦   ¦   ¦   actions.py
+¦   ¦       ¦   ¦   ¦   ¦   common.py
+¦   ¦       ¦   ¦   ¦   ¦   core.py
+¦   ¦       ¦   ¦   ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   ¦   ¦   helpers.py
+¦   ¦       ¦   ¦   ¦   ¦   results.py
+¦   ¦       ¦   ¦   ¦   ¦   testing.py
+¦   ¦       ¦   ¦   ¦   ¦   unicode.py
+¦   ¦       ¦   ¦   ¦   ¦   util.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---diagram
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           actions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           common.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           core.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           helpers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           results.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           testing.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           unicode.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           util.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           appdirs.cpython-311.pyc
+¦   ¦       ¦   ¦           zipp.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---propcache
+¦   ¦       ¦   ¦   api.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   _helpers.py
+¦   ¦       ¦   ¦   _helpers_c.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   _helpers_c.pyx
+¦   ¦       ¦   ¦   _helpers_py.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           api.cpython-311.pyc
+¦   ¦       ¦           _helpers.cpython-311.pyc
+¦   ¦       ¦           _helpers_py.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---propcache-0.3.1.dist-info
+¦   ¦       ¦   ¦   INSTALLER
+¦   ¦       ¦   ¦   METADATA
+¦   ¦       ¦   ¦   RECORD
+¦   ¦       ¦   ¦   top_level.txt
+¦   ¦       ¦   ¦   WHEEL
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---licenses
+¦   ¦       ¦           LICENSE
+¦   ¦       ¦           NOTICE
+¦   ¦       ¦           
+¦   ¦       +---python_dotenv-1.1.0.dist-info
+¦   ¦       ¦   ¦   entry_points.txt
+¦   ¦       ¦   ¦   INSTALLER
+¦   ¦       ¦   ¦   METADATA
+¦   ¦       ¦   ¦   RECORD
+¦   ¦       ¦   ¦   REQUESTED
+¦   ¦       ¦   ¦   top_level.txt
+¦   ¦       ¦   ¦   WHEEL
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---licenses
+¦   ¦       ¦           LICENSE
+¦   ¦       ¦           
+¦   ¦       +---pytz
+¦   ¦       ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   lazy.py
+¦   ¦       ¦   ¦   reference.py
+¦   ¦       ¦   ¦   tzfile.py
+¦   ¦       ¦   ¦   tzinfo.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---zoneinfo
+¦   ¦       ¦   ¦   ¦   CET
+¦   ¦       ¦   ¦   ¦   CST6CDT
+¦   ¦       ¦   ¦   ¦   Cuba
+¦   ¦       ¦   ¦   ¦   EET
+¦   ¦       ¦   ¦   ¦   Egypt
+¦   ¦       ¦   ¦   ¦   Eire
+¦   ¦       ¦   ¦   ¦   EST
+¦   ¦       ¦   ¦   ¦   EST5EDT
+¦   ¦       ¦   ¦   ¦   Factory
+¦   ¦       ¦   ¦   ¦   GB
+¦   ¦       ¦   ¦   ¦   GB-Eire
+¦   ¦       ¦   ¦   ¦   GMT
+¦   ¦       ¦   ¦   ¦   GMT+0
+¦   ¦       ¦   ¦   ¦   GMT-0
+¦   ¦       ¦   ¦   ¦   GMT0
+¦   ¦       ¦   ¦   ¦   Greenwich
+¦   ¦       ¦   ¦   ¦   Hongkong
+¦   ¦       ¦   ¦   ¦   HST
+¦   ¦       ¦   ¦   ¦   Iceland
+¦   ¦       ¦   ¦   ¦   Iran
+¦   ¦       ¦   ¦   ¦   iso3166.tab
+¦   ¦       ¦   ¦   ¦   Israel
+¦   ¦       ¦   ¦   ¦   Jamaica
+¦   ¦       ¦   ¦   ¦   Japan
+¦   ¦       ¦   ¦   ¦   Kwajalein
+¦   ¦       ¦   ¦   ¦   leapseconds
+¦   ¦       ¦   ¦   ¦   Libya
+¦   ¦       ¦   ¦   ¦   MET
+¦   ¦       ¦   ¦   ¦   MST
+¦   ¦       ¦   ¦   ¦   MST7MDT
+¦   ¦       ¦   ¦   ¦   Navajo
+¦   ¦       ¦   ¦   ¦   NZ
+¦   ¦       ¦   ¦   ¦   NZ-CHAT
+¦   ¦       ¦   ¦   ¦   Poland
+¦   ¦       ¦   ¦   ¦   Portugal
+¦   ¦       ¦   ¦   ¦   PRC
+¦   ¦       ¦   ¦   ¦   PST8PDT
+¦   ¦       ¦   ¦   ¦   ROC
+¦   ¦       ¦   ¦   ¦   ROK
+¦   ¦       ¦   ¦   ¦   Singapore
+¦   ¦       ¦   ¦   ¦   Turkey
+¦   ¦       ¦   ¦   ¦   tzdata.zi
+¦   ¦       ¦   ¦   ¦   UCT
+¦   ¦       ¦   ¦   ¦   Universal
+¦   ¦       ¦   ¦   ¦   UTC
+¦   ¦       ¦   ¦   ¦   W-SU
+¦   ¦       ¦   ¦   ¦   WET
+¦   ¦       ¦   ¦   ¦   zone.tab
+¦   ¦       ¦   ¦   ¦   zone1970.tab
+¦   ¦       ¦   ¦   ¦   zonenow.tab
+¦   ¦       ¦   ¦   ¦   Zulu
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---Africa
+¦   ¦       ¦   ¦   ¦       Abidjan
+¦   ¦       ¦   ¦   ¦       Accra
+¦   ¦       ¦   ¦   ¦       Addis_Ababa
+¦   ¦       ¦   ¦   ¦       Algiers
+¦   ¦       ¦   ¦   ¦       Asmara
+¦   ¦       ¦   ¦   ¦       Asmera
+¦   ¦       ¦   ¦   ¦       Bamako
+¦   ¦       ¦   ¦   ¦       Bangui
+¦   ¦       ¦   ¦   ¦       Banjul
+¦   ¦       ¦   ¦   ¦       Bissau
+¦   ¦       ¦   ¦   ¦       Blantyre
+¦   ¦       ¦   ¦   ¦       Brazzaville
+¦   ¦       ¦   ¦   ¦       Bujumbura
+¦   ¦       ¦   ¦   ¦       Cairo
+¦   ¦       ¦   ¦   ¦       Casablanca
+¦   ¦       ¦   ¦   ¦       Ceuta
+¦   ¦       ¦   ¦   ¦       Conakry
+¦   ¦       ¦   ¦   ¦       Dakar
+¦   ¦       ¦   ¦   ¦       Dar_es_Salaam
+¦   ¦       ¦   ¦   ¦       Djibouti
+¦   ¦       ¦   ¦   ¦       Douala
+¦   ¦       ¦   ¦   ¦       El_Aaiun
+¦   ¦       ¦   ¦   ¦       Freetown
+¦   ¦       ¦   ¦   ¦       Gaborone
+¦   ¦       ¦   ¦   ¦       Harare
+¦   ¦       ¦   ¦   ¦       Johannesburg
+¦   ¦       ¦   ¦   ¦       Juba
+¦   ¦       ¦   ¦   ¦       Kampala
+¦   ¦       ¦   ¦   ¦       Khartoum
+¦   ¦       ¦   ¦   ¦       Kigali
+¦   ¦       ¦   ¦   ¦       Kinshasa
+¦   ¦       ¦   ¦   ¦       Lagos
+¦   ¦       ¦   ¦   ¦       Libreville
+¦   ¦       ¦   ¦   ¦       Lome
+¦   ¦       ¦   ¦   ¦       Luanda
+¦   ¦       ¦   ¦   ¦       Lubumbashi
+¦   ¦       ¦   ¦   ¦       Lusaka
+¦   ¦       ¦   ¦   ¦       Malabo
+¦   ¦       ¦   ¦   ¦       Maputo
+¦   ¦       ¦   ¦   ¦       Maseru
+¦   ¦       ¦   ¦   ¦       Mbabane
+¦   ¦       ¦   ¦   ¦       Mogadishu
+¦   ¦       ¦   ¦   ¦       Monrovia
+¦   ¦       ¦   ¦   ¦       Nairobi
+¦   ¦       ¦   ¦   ¦       Ndjamena
+¦   ¦       ¦   ¦   ¦       Niamey
+¦   ¦       ¦   ¦   ¦       Nouakchott
+¦   ¦       ¦   ¦   ¦       Ouagadougou
+¦   ¦       ¦   ¦   ¦       Porto-Novo
+¦   ¦       ¦   ¦   ¦       Sao_Tome
+¦   ¦       ¦   ¦   ¦       Timbuktu
+¦   ¦       ¦   ¦   ¦       Tripoli
+¦   ¦       ¦   ¦   ¦       Tunis
+¦   ¦       ¦   ¦   ¦       Windhoek
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---America
+¦   ¦       ¦   ¦   ¦   ¦   Adak
+¦   ¦       ¦   ¦   ¦   ¦   Anchorage
+¦   ¦       ¦   ¦   ¦   ¦   Anguilla
+¦   ¦       ¦   ¦   ¦   ¦   Antigua
+¦   ¦       ¦   ¦   ¦   ¦   Araguaina
+¦   ¦       ¦   ¦   ¦   ¦   Aruba
+¦   ¦       ¦   ¦   ¦   ¦   Asuncion
+¦   ¦       ¦   ¦   ¦   ¦   Atikokan
+¦   ¦       ¦   ¦   ¦   ¦   Atka
+¦   ¦       ¦   ¦   ¦   ¦   Bahia
+¦   ¦       ¦   ¦   ¦   ¦   Bahia_Banderas
+¦   ¦       ¦   ¦   ¦   ¦   Barbados
+¦   ¦       ¦   ¦   ¦   ¦   Belem
+¦   ¦       ¦   ¦   ¦   ¦   Belize
+¦   ¦       ¦   ¦   ¦   ¦   Blanc-Sablon
+¦   ¦       ¦   ¦   ¦   ¦   Boa_Vista
+¦   ¦       ¦   ¦   ¦   ¦   Bogota
+¦   ¦       ¦   ¦   ¦   ¦   Boise
+¦   ¦       ¦   ¦   ¦   ¦   Buenos_Aires
+¦   ¦       ¦   ¦   ¦   ¦   Cambridge_Bay
+¦   ¦       ¦   ¦   ¦   ¦   Campo_Grande
+¦   ¦       ¦   ¦   ¦   ¦   Cancun
+¦   ¦       ¦   ¦   ¦   ¦   Caracas
+¦   ¦       ¦   ¦   ¦   ¦   Catamarca
+¦   ¦       ¦   ¦   ¦   ¦   Cayenne
+¦   ¦       ¦   ¦   ¦   ¦   Cayman
+¦   ¦       ¦   ¦   ¦   ¦   Chicago
+¦   ¦       ¦   ¦   ¦   ¦   Chihuahua
+¦   ¦       ¦   ¦   ¦   ¦   Ciudad_Juarez
+¦   ¦       ¦   ¦   ¦   ¦   Coral_Harbour
+¦   ¦       ¦   ¦   ¦   ¦   Cordoba
+¦   ¦       ¦   ¦   ¦   ¦   Costa_Rica
+¦   ¦       ¦   ¦   ¦   ¦   Coyhaique
+¦   ¦       ¦   ¦   ¦   ¦   Creston
+¦   ¦       ¦   ¦   ¦   ¦   Cuiaba
+¦   ¦       ¦   ¦   ¦   ¦   Curacao
+¦   ¦       ¦   ¦   ¦   ¦   Danmarkshavn
+¦   ¦       ¦   ¦   ¦   ¦   Dawson
+¦   ¦       ¦   ¦   ¦   ¦   Dawson_Creek
+¦   ¦       ¦   ¦   ¦   ¦   Denver
+¦   ¦       ¦   ¦   ¦   ¦   Detroit
+¦   ¦       ¦   ¦   ¦   ¦   Dominica
+¦   ¦       ¦   ¦   ¦   ¦   Edmonton
+¦   ¦       ¦   ¦   ¦   ¦   Eirunepe
+¦   ¦       ¦   ¦   ¦   ¦   El_Salvador
+¦   ¦       ¦   ¦   ¦   ¦   Ensenada
+¦   ¦       ¦   ¦   ¦   ¦   Fortaleza
+¦   ¦       ¦   ¦   ¦   ¦   Fort_Nelson
+¦   ¦       ¦   ¦   ¦   ¦   Fort_Wayne
+¦   ¦       ¦   ¦   ¦   ¦   Glace_Bay
+¦   ¦       ¦   ¦   ¦   ¦   Godthab
+¦   ¦       ¦   ¦   ¦   ¦   Goose_Bay
+¦   ¦       ¦   ¦   ¦   ¦   Grand_Turk
+¦   ¦       ¦   ¦   ¦   ¦   Grenada
+¦   ¦       ¦   ¦   ¦   ¦   Guadeloupe
+¦   ¦       ¦   ¦   ¦   ¦   Guatemala
+¦   ¦       ¦   ¦   ¦   ¦   Guayaquil
+¦   ¦       ¦   ¦   ¦   ¦   Guyana
+¦   ¦       ¦   ¦   ¦   ¦   Halifax
+¦   ¦       ¦   ¦   ¦   ¦   Havana
+¦   ¦       ¦   ¦   ¦   ¦   Hermosillo
+¦   ¦       ¦   ¦   ¦   ¦   Indianapolis
+¦   ¦       ¦   ¦   ¦   ¦   Inuvik
+¦   ¦       ¦   ¦   ¦   ¦   Iqaluit
+¦   ¦       ¦   ¦   ¦   ¦   Jamaica
+¦   ¦       ¦   ¦   ¦   ¦   Jujuy
+¦   ¦       ¦   ¦   ¦   ¦   Juneau
+¦   ¦       ¦   ¦   ¦   ¦   Knox_IN
+¦   ¦       ¦   ¦   ¦   ¦   Kralendijk
+¦   ¦       ¦   ¦   ¦   ¦   La_Paz
+¦   ¦       ¦   ¦   ¦   ¦   Lima
+¦   ¦       ¦   ¦   ¦   ¦   Los_Angeles
+¦   ¦       ¦   ¦   ¦   ¦   Louisville
+¦   ¦       ¦   ¦   ¦   ¦   Lower_Princes
+¦   ¦       ¦   ¦   ¦   ¦   Maceio
+¦   ¦       ¦   ¦   ¦   ¦   Managua
+¦   ¦       ¦   ¦   ¦   ¦   Manaus
+¦   ¦       ¦   ¦   ¦   ¦   Marigot
+¦   ¦       ¦   ¦   ¦   ¦   Martinique
+¦   ¦       ¦   ¦   ¦   ¦   Matamoros
+¦   ¦       ¦   ¦   ¦   ¦   Mazatlan
+¦   ¦       ¦   ¦   ¦   ¦   Mendoza
+¦   ¦       ¦   ¦   ¦   ¦   Menominee
+¦   ¦       ¦   ¦   ¦   ¦   Merida
+¦   ¦       ¦   ¦   ¦   ¦   Metlakatla
+¦   ¦       ¦   ¦   ¦   ¦   Mexico_City
+¦   ¦       ¦   ¦   ¦   ¦   Miquelon
+¦   ¦       ¦   ¦   ¦   ¦   Moncton
+¦   ¦       ¦   ¦   ¦   ¦   Monterrey
+¦   ¦       ¦   ¦   ¦   ¦   Montevideo
+¦   ¦       ¦   ¦   ¦   ¦   Montreal
+¦   ¦       ¦   ¦   ¦   ¦   Montserrat
+¦   ¦       ¦   ¦   ¦   ¦   Nassau
+¦   ¦       ¦   ¦   ¦   ¦   New_York
+¦   ¦       ¦   ¦   ¦   ¦   Nipigon
+¦   ¦       ¦   ¦   ¦   ¦   Nome
+¦   ¦       ¦   ¦   ¦   ¦   Noronha
+¦   ¦       ¦   ¦   ¦   ¦   Nuuk
+¦   ¦       ¦   ¦   ¦   ¦   Ojinaga
+¦   ¦       ¦   ¦   ¦   ¦   Panama
+¦   ¦       ¦   ¦   ¦   ¦   Pangnirtung
+¦   ¦       ¦   ¦   ¦   ¦   Paramaribo
+¦   ¦       ¦   ¦   ¦   ¦   Phoenix
+¦   ¦       ¦   ¦   ¦   ¦   Port-au-Prince
+¦   ¦       ¦   ¦   ¦   ¦   Porto_Acre
+¦   ¦       ¦   ¦   ¦   ¦   Porto_Velho
+¦   ¦       ¦   ¦   ¦   ¦   Port_of_Spain
+¦   ¦       ¦   ¦   ¦   ¦   Puerto_Rico
+¦   ¦       ¦   ¦   ¦   ¦   Punta_Arenas
+¦   ¦       ¦   ¦   ¦   ¦   Rainy_River
+¦   ¦       ¦   ¦   ¦   ¦   Rankin_Inlet
+¦   ¦       ¦   ¦   ¦   ¦   Recife
+¦   ¦       ¦   ¦   ¦   ¦   Regina
+¦   ¦       ¦   ¦   ¦   ¦   Resolute
+¦   ¦       ¦   ¦   ¦   ¦   Rio_Branco
+¦   ¦       ¦   ¦   ¦   ¦   Rosario
+¦   ¦       ¦   ¦   ¦   ¦   Santarem
+¦   ¦       ¦   ¦   ¦   ¦   Santa_Isabel
+¦   ¦       ¦   ¦   ¦   ¦   Santiago
+¦   ¦       ¦   ¦   ¦   ¦   Santo_Domingo
+¦   ¦       ¦   ¦   ¦   ¦   Sao_Paulo
+¦   ¦       ¦   ¦   ¦   ¦   Scoresbysund
+¦   ¦       ¦   ¦   ¦   ¦   Shiprock
+¦   ¦       ¦   ¦   ¦   ¦   Sitka
+¦   ¦       ¦   ¦   ¦   ¦   St_Barthelemy
+¦   ¦       ¦   ¦   ¦   ¦   St_Johns
+¦   ¦       ¦   ¦   ¦   ¦   St_Kitts
+¦   ¦       ¦   ¦   ¦   ¦   St_Lucia
+¦   ¦       ¦   ¦   ¦   ¦   St_Thomas
+¦   ¦       ¦   ¦   ¦   ¦   St_Vincent
+¦   ¦       ¦   ¦   ¦   ¦   Swift_Current
+¦   ¦       ¦   ¦   ¦   ¦   Tegucigalpa
+¦   ¦       ¦   ¦   ¦   ¦   Thule
+¦   ¦       ¦   ¦   ¦   ¦   Thunder_Bay
+¦   ¦       ¦   ¦   ¦   ¦   Tijuana
+¦   ¦       ¦   ¦   ¦   ¦   Toronto
+¦   ¦       ¦   ¦   ¦   ¦   Tortola
+¦   ¦       ¦   ¦   ¦   ¦   Vancouver
+¦   ¦       ¦   ¦   ¦   ¦   Virgin
+¦   ¦       ¦   ¦   ¦   ¦   Whitehorse
+¦   ¦       ¦   ¦   ¦   ¦   Winnipeg
+¦   ¦       ¦   ¦   ¦   ¦   Yakutat
+¦   ¦       ¦   ¦   ¦   ¦   Yellowknife
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---Argentina
+¦   ¦       ¦   ¦   ¦   ¦       Buenos_Aires
+¦   ¦       ¦   ¦   ¦   ¦       Catamarca
+¦   ¦       ¦   ¦   ¦   ¦       ComodRivadavia
+¦   ¦       ¦   ¦   ¦   ¦       Cordoba
+¦   ¦       ¦   ¦   ¦   ¦       Jujuy
+¦   ¦       ¦   ¦   ¦   ¦       La_Rioja
+¦   ¦       ¦   ¦   ¦   ¦       Mendoza
+¦   ¦       ¦   ¦   ¦   ¦       Rio_Gallegos
+¦   ¦       ¦   ¦   ¦   ¦       Salta
+¦   ¦       ¦   ¦   ¦   ¦       San_Juan
+¦   ¦       ¦   ¦   ¦   ¦       San_Luis
+¦   ¦       ¦   ¦   ¦   ¦       Tucuman
+¦   ¦       ¦   ¦   ¦   ¦       Ushuaia
+¦   ¦       ¦   ¦   ¦   ¦       
+¦   ¦       ¦   ¦   ¦   +---Indiana
+¦   ¦       ¦   ¦   ¦   ¦       Indianapolis
+¦   ¦       ¦   ¦   ¦   ¦       Knox
+¦   ¦       ¦   ¦   ¦   ¦       Marengo
+¦   ¦       ¦   ¦   ¦   ¦       Petersburg
+¦   ¦       ¦   ¦   ¦   ¦       Tell_City
+¦   ¦       ¦   ¦   ¦   ¦       Vevay
+¦   ¦       ¦   ¦   ¦   ¦       Vincennes
+¦   ¦       ¦   ¦   ¦   ¦       Winamac
+¦   ¦       ¦   ¦   ¦   ¦       
+¦   ¦       ¦   ¦   ¦   +---Kentucky
+¦   ¦       ¦   ¦   ¦   ¦       Louisville
+¦   ¦       ¦   ¦   ¦   ¦       Monticello
+¦   ¦       ¦   ¦   ¦   ¦       
+¦   ¦       ¦   ¦   ¦   +---North_Dakota
+¦   ¦       ¦   ¦   ¦           Beulah
+¦   ¦       ¦   ¦   ¦           Center
+¦   ¦       ¦   ¦   ¦           New_Salem
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---Antarctica
+¦   ¦       ¦   ¦   ¦       Casey
+¦   ¦       ¦   ¦   ¦       Davis
+¦   ¦       ¦   ¦   ¦       DumontDUrville
+¦   ¦       ¦   ¦   ¦       Macquarie
+¦   ¦       ¦   ¦   ¦       Mawson
+¦   ¦       ¦   ¦   ¦       McMurdo
+¦   ¦       ¦   ¦   ¦       Palmer
+¦   ¦       ¦   ¦   ¦       Rothera
+¦   ¦       ¦   ¦   ¦       South_Pole
+¦   ¦       ¦   ¦   ¦       Syowa
+¦   ¦       ¦   ¦   ¦       Troll
+¦   ¦       ¦   ¦   ¦       Vostok
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Arctic
+¦   ¦       ¦   ¦   ¦       Longyearbyen
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Asia
+¦   ¦       ¦   ¦   ¦       Aden
+¦   ¦       ¦   ¦   ¦       Almaty
+¦   ¦       ¦   ¦   ¦       Amman
+¦   ¦       ¦   ¦   ¦       Anadyr
+¦   ¦       ¦   ¦   ¦       Aqtau
+¦   ¦       ¦   ¦   ¦       Aqtobe
+¦   ¦       ¦   ¦   ¦       Ashgabat
+¦   ¦       ¦   ¦   ¦       Ashkhabad
+¦   ¦       ¦   ¦   ¦       Atyrau
+¦   ¦       ¦   ¦   ¦       Baghdad
+¦   ¦       ¦   ¦   ¦       Bahrain
+¦   ¦       ¦   ¦   ¦       Baku
+¦   ¦       ¦   ¦   ¦       Bangkok
+¦   ¦       ¦   ¦   ¦       Barnaul
+¦   ¦       ¦   ¦   ¦       Beirut
+¦   ¦       ¦   ¦   ¦       Bishkek
+¦   ¦       ¦   ¦   ¦       Brunei
+¦   ¦       ¦   ¦   ¦       Calcutta
+¦   ¦       ¦   ¦   ¦       Chita
+¦   ¦       ¦   ¦   ¦       Choibalsan
+¦   ¦       ¦   ¦   ¦       Chongqing
+¦   ¦       ¦   ¦   ¦       Chungking
+¦   ¦       ¦   ¦   ¦       Colombo
+¦   ¦       ¦   ¦   ¦       Dacca
+¦   ¦       ¦   ¦   ¦       Damascus
+¦   ¦       ¦   ¦   ¦       Dhaka
+¦   ¦       ¦   ¦   ¦       Dili
+¦   ¦       ¦   ¦   ¦       Dubai
+¦   ¦       ¦   ¦   ¦       Dushanbe
+¦   ¦       ¦   ¦   ¦       Famagusta
+¦   ¦       ¦   ¦   ¦       Gaza
+¦   ¦       ¦   ¦   ¦       Harbin
+¦   ¦       ¦   ¦   ¦       Hebron
+¦   ¦       ¦   ¦   ¦       Hong_Kong
+¦   ¦       ¦   ¦   ¦       Hovd
+¦   ¦       ¦   ¦   ¦       Ho_Chi_Minh
+¦   ¦       ¦   ¦   ¦       Irkutsk
+¦   ¦       ¦   ¦   ¦       Istanbul
+¦   ¦       ¦   ¦   ¦       Jakarta
+¦   ¦       ¦   ¦   ¦       Jayapura
+¦   ¦       ¦   ¦   ¦       Jerusalem
+¦   ¦       ¦   ¦   ¦       Kabul
+¦   ¦       ¦   ¦   ¦       Kamchatka
+¦   ¦       ¦   ¦   ¦       Karachi
+¦   ¦       ¦   ¦   ¦       Kashgar
+¦   ¦       ¦   ¦   ¦       Kathmandu
+¦   ¦       ¦   ¦   ¦       Katmandu
+¦   ¦       ¦   ¦   ¦       Khandyga
+¦   ¦       ¦   ¦   ¦       Kolkata
+¦   ¦       ¦   ¦   ¦       Krasnoyarsk
+¦   ¦       ¦   ¦   ¦       Kuala_Lumpur
+¦   ¦       ¦   ¦   ¦       Kuching
+¦   ¦       ¦   ¦   ¦       Kuwait
+¦   ¦       ¦   ¦   ¦       Macao
+¦   ¦       ¦   ¦   ¦       Macau
+¦   ¦       ¦   ¦   ¦       Magadan
+¦   ¦       ¦   ¦   ¦       Makassar
+¦   ¦       ¦   ¦   ¦       Manila
+¦   ¦       ¦   ¦   ¦       Muscat
+¦   ¦       ¦   ¦   ¦       Nicosia
+¦   ¦       ¦   ¦   ¦       Novokuznetsk
+¦   ¦       ¦   ¦   ¦       Novosibirsk
+¦   ¦       ¦   ¦   ¦       Omsk
+¦   ¦       ¦   ¦   ¦       Oral
+¦   ¦       ¦   ¦   ¦       Phnom_Penh
+¦   ¦       ¦   ¦   ¦       Pontianak
+¦   ¦       ¦   ¦   ¦       Pyongyang
+¦   ¦       ¦   ¦   ¦       Qatar
+¦   ¦       ¦   ¦   ¦       Qostanay
+¦   ¦       ¦   ¦   ¦       Qyzylorda
+¦   ¦       ¦   ¦   ¦       Rangoon
+¦   ¦       ¦   ¦   ¦       Riyadh
+¦   ¦       ¦   ¦   ¦       Saigon
+¦   ¦       ¦   ¦   ¦       Sakhalin
+¦   ¦       ¦   ¦   ¦       Samarkand
+¦   ¦       ¦   ¦   ¦       Seoul
+¦   ¦       ¦   ¦   ¦       Shanghai
+¦   ¦       ¦   ¦   ¦       Singapore
+¦   ¦       ¦   ¦   ¦       Srednekolymsk
+¦   ¦       ¦   ¦   ¦       Taipei
+¦   ¦       ¦   ¦   ¦       Tashkent
+¦   ¦       ¦   ¦   ¦       Tbilisi
+¦   ¦       ¦   ¦   ¦       Tehran
+¦   ¦       ¦   ¦   ¦       Tel_Aviv
+¦   ¦       ¦   ¦   ¦       Thimbu
+¦   ¦       ¦   ¦   ¦       Thimphu
+¦   ¦       ¦   ¦   ¦       Tokyo
+¦   ¦       ¦   ¦   ¦       Tomsk
+¦   ¦       ¦   ¦   ¦       Ujung_Pandang
+¦   ¦       ¦   ¦   ¦       Ulaanbaatar
+¦   ¦       ¦   ¦   ¦       Ulan_Bator
+¦   ¦       ¦   ¦   ¦       Urumqi
+¦   ¦       ¦   ¦   ¦       Ust-Nera
+¦   ¦       ¦   ¦   ¦       Vientiane
+¦   ¦       ¦   ¦   ¦       Vladivostok
+¦   ¦       ¦   ¦   ¦       Yakutsk
+¦   ¦       ¦   ¦   ¦       Yangon
+¦   ¦       ¦   ¦   ¦       Yekaterinburg
+¦   ¦       ¦   ¦   ¦       Yerevan
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Atlantic
+¦   ¦       ¦   ¦   ¦       Azores
+¦   ¦       ¦   ¦   ¦       Bermuda
+¦   ¦       ¦   ¦   ¦       Canary
+¦   ¦       ¦   ¦   ¦       Cape_Verde
+¦   ¦       ¦   ¦   ¦       Faeroe
+¦   ¦       ¦   ¦   ¦       Faroe
+¦   ¦       ¦   ¦   ¦       Jan_Mayen
+¦   ¦       ¦   ¦   ¦       Madeira
+¦   ¦       ¦   ¦   ¦       Reykjavik
+¦   ¦       ¦   ¦   ¦       South_Georgia
+¦   ¦       ¦   ¦   ¦       Stanley
+¦   ¦       ¦   ¦   ¦       St_Helena
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Australia
+¦   ¦       ¦   ¦   ¦       ACT
+¦   ¦       ¦   ¦   ¦       Adelaide
+¦   ¦       ¦   ¦   ¦       Brisbane
+¦   ¦       ¦   ¦   ¦       Broken_Hill
+¦   ¦       ¦   ¦   ¦       Canberra
+¦   ¦       ¦   ¦   ¦       Currie
+¦   ¦       ¦   ¦   ¦       Darwin
+¦   ¦       ¦   ¦   ¦       Eucla
+¦   ¦       ¦   ¦   ¦       Hobart
+¦   ¦       ¦   ¦   ¦       LHI
+¦   ¦       ¦   ¦   ¦       Lindeman
+¦   ¦       ¦   ¦   ¦       Lord_Howe
+¦   ¦       ¦   ¦   ¦       Melbourne
+¦   ¦       ¦   ¦   ¦       North
+¦   ¦       ¦   ¦   ¦       NSW
+¦   ¦       ¦   ¦   ¦       Perth
+¦   ¦       ¦   ¦   ¦       Queensland
+¦   ¦       ¦   ¦   ¦       South
+¦   ¦       ¦   ¦   ¦       Sydney
+¦   ¦       ¦   ¦   ¦       Tasmania
+¦   ¦       ¦   ¦   ¦       Victoria
+¦   ¦       ¦   ¦   ¦       West
+¦   ¦       ¦   ¦   ¦       Yancowinna
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Brazil
+¦   ¦       ¦   ¦   ¦       Acre
+¦   ¦       ¦   ¦   ¦       DeNoronha
+¦   ¦       ¦   ¦   ¦       East
+¦   ¦       ¦   ¦   ¦       West
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Canada
+¦   ¦       ¦   ¦   ¦       Atlantic
+¦   ¦       ¦   ¦   ¦       Central
+¦   ¦       ¦   ¦   ¦       Eastern
+¦   ¦       ¦   ¦   ¦       Mountain
+¦   ¦       ¦   ¦   ¦       Newfoundland
+¦   ¦       ¦   ¦   ¦       Pacific
+¦   ¦       ¦   ¦   ¦       Saskatchewan
+¦   ¦       ¦   ¦   ¦       Yukon
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Chile
+¦   ¦       ¦   ¦   ¦       Continental
+¦   ¦       ¦   ¦   ¦       EasterIsland
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Etc
+¦   ¦       ¦   ¦   ¦       GMT
+¦   ¦       ¦   ¦   ¦       GMT+0
+¦   ¦       ¦   ¦   ¦       GMT+1
+¦   ¦       ¦   ¦   ¦       GMT+10
+¦   ¦       ¦   ¦   ¦       GMT+11
+¦   ¦       ¦   ¦   ¦       GMT+12
+¦   ¦       ¦   ¦   ¦       GMT+2
+¦   ¦       ¦   ¦   ¦       GMT+3
+¦   ¦       ¦   ¦   ¦       GMT+4
+¦   ¦       ¦   ¦   ¦       GMT+5
+¦   ¦       ¦   ¦   ¦       GMT+6
+¦   ¦       ¦   ¦   ¦       GMT+7
+¦   ¦       ¦   ¦   ¦       GMT+8
+¦   ¦       ¦   ¦   ¦       GMT+9
+¦   ¦       ¦   ¦   ¦       GMT-0
+¦   ¦       ¦   ¦   ¦       GMT-1
+¦   ¦       ¦   ¦   ¦       GMT-10
+¦   ¦       ¦   ¦   ¦       GMT-11
+¦   ¦       ¦   ¦   ¦       GMT-12
+¦   ¦       ¦   ¦   ¦       GMT-13
+¦   ¦       ¦   ¦   ¦       GMT-14
+¦   ¦       ¦   ¦   ¦       GMT-2
+¦   ¦       ¦   ¦   ¦       GMT-3
+¦   ¦       ¦   ¦   ¦       GMT-4
+¦   ¦       ¦   ¦   ¦       GMT-5
+¦   ¦       ¦   ¦   ¦       GMT-6
+¦   ¦       ¦   ¦   ¦       GMT-7
+¦   ¦       ¦   ¦   ¦       GMT-8
+¦   ¦       ¦   ¦   ¦       GMT-9
+¦   ¦       ¦   ¦   ¦       GMT0
+¦   ¦       ¦   ¦   ¦       Greenwich
+¦   ¦       ¦   ¦   ¦       UCT
+¦   ¦       ¦   ¦   ¦       Universal
+¦   ¦       ¦   ¦   ¦       UTC
+¦   ¦       ¦   ¦   ¦       Zulu
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Europe
+¦   ¦       ¦   ¦   ¦       Amsterdam
+¦   ¦       ¦   ¦   ¦       Andorra
+¦   ¦       ¦   ¦   ¦       Astrakhan
+¦   ¦       ¦   ¦   ¦       Athens
+¦   ¦       ¦   ¦   ¦       Belfast
+¦   ¦       ¦   ¦   ¦       Belgrade
+¦   ¦       ¦   ¦   ¦       Berlin
+¦   ¦       ¦   ¦   ¦       Bratislava
+¦   ¦       ¦   ¦   ¦       Brussels
+¦   ¦       ¦   ¦   ¦       Bucharest
+¦   ¦       ¦   ¦   ¦       Budapest
+¦   ¦       ¦   ¦   ¦       Busingen
+¦   ¦       ¦   ¦   ¦       Chisinau
+¦   ¦       ¦   ¦   ¦       Copenhagen
+¦   ¦       ¦   ¦   ¦       Dublin
+¦   ¦       ¦   ¦   ¦       Gibraltar
+¦   ¦       ¦   ¦   ¦       Guernsey
+¦   ¦       ¦   ¦   ¦       Helsinki
+¦   ¦       ¦   ¦   ¦       Isle_of_Man
+¦   ¦       ¦   ¦   ¦       Istanbul
+¦   ¦       ¦   ¦   ¦       Jersey
+¦   ¦       ¦   ¦   ¦       Kaliningrad
+¦   ¦       ¦   ¦   ¦       Kiev
+¦   ¦       ¦   ¦   ¦       Kirov
+¦   ¦       ¦   ¦   ¦       Kyiv
+¦   ¦       ¦   ¦   ¦       Lisbon
+¦   ¦       ¦   ¦   ¦       Ljubljana
+¦   ¦       ¦   ¦   ¦       London
+¦   ¦       ¦   ¦   ¦       Luxembourg
+¦   ¦       ¦   ¦   ¦       Madrid
+¦   ¦       ¦   ¦   ¦       Malta
+¦   ¦       ¦   ¦   ¦       Mariehamn
+¦   ¦       ¦   ¦   ¦       Minsk
+¦   ¦       ¦   ¦   ¦       Monaco
+¦   ¦       ¦   ¦   ¦       Moscow
+¦   ¦       ¦   ¦   ¦       Nicosia
+¦   ¦       ¦   ¦   ¦       Oslo
+¦   ¦       ¦   ¦   ¦       Paris
+¦   ¦       ¦   ¦   ¦       Podgorica
+¦   ¦       ¦   ¦   ¦       Prague
+¦   ¦       ¦   ¦   ¦       Riga
+¦   ¦       ¦   ¦   ¦       Rome
+¦   ¦       ¦   ¦   ¦       Samara
+¦   ¦       ¦   ¦   ¦       San_Marino
+¦   ¦       ¦   ¦   ¦       Sarajevo
+¦   ¦       ¦   ¦   ¦       Saratov
+¦   ¦       ¦   ¦   ¦       Simferopol
+¦   ¦       ¦   ¦   ¦       Skopje
+¦   ¦       ¦   ¦   ¦       Sofia
+¦   ¦       ¦   ¦   ¦       Stockholm
+¦   ¦       ¦   ¦   ¦       Tallinn
+¦   ¦       ¦   ¦   ¦       Tirane
+¦   ¦       ¦   ¦   ¦       Tiraspol
+¦   ¦       ¦   ¦   ¦       Ulyanovsk
+¦   ¦       ¦   ¦   ¦       Uzhgorod
+¦   ¦       ¦   ¦   ¦       Vaduz
+¦   ¦       ¦   ¦   ¦       Vatican
+¦   ¦       ¦   ¦   ¦       Vienna
+¦   ¦       ¦   ¦   ¦       Vilnius
+¦   ¦       ¦   ¦   ¦       Volgograd
+¦   ¦       ¦   ¦   ¦       Warsaw
+¦   ¦       ¦   ¦   ¦       Zagreb
+¦   ¦       ¦   ¦   ¦       Zaporozhye
+¦   ¦       ¦   ¦   ¦       Zurich
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Indian
+¦   ¦       ¦   ¦   ¦       Antananarivo
+¦   ¦       ¦   ¦   ¦       Chagos
+¦   ¦       ¦   ¦   ¦       Christmas
+¦   ¦       ¦   ¦   ¦       Cocos
+¦   ¦       ¦   ¦   ¦       Comoro
+¦   ¦       ¦   ¦   ¦       Kerguelen
+¦   ¦       ¦   ¦   ¦       Mahe
+¦   ¦       ¦   ¦   ¦       Maldives
+¦   ¦       ¦   ¦   ¦       Mauritius
+¦   ¦       ¦   ¦   ¦       Mayotte
+¦   ¦       ¦   ¦   ¦       Reunion
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Mexico
+¦   ¦       ¦   ¦   ¦       BajaNorte
+¦   ¦       ¦   ¦   ¦       BajaSur
+¦   ¦       ¦   ¦   ¦       General
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---Pacific
+¦   ¦       ¦   ¦   ¦       Apia
+¦   ¦       ¦   ¦   ¦       Auckland
+¦   ¦       ¦   ¦   ¦       Bougainville
+¦   ¦       ¦   ¦   ¦       Chatham
+¦   ¦       ¦   ¦   ¦       Chuuk
+¦   ¦       ¦   ¦   ¦       Easter
+¦   ¦       ¦   ¦   ¦       Efate
+¦   ¦       ¦   ¦   ¦       Enderbury
+¦   ¦       ¦   ¦   ¦       Fakaofo
+¦   ¦       ¦   ¦   ¦       Fiji
+¦   ¦       ¦   ¦   ¦       Funafuti
+¦   ¦       ¦   ¦   ¦       Galapagos
+¦   ¦       ¦   ¦   ¦       Gambier
+¦   ¦       ¦   ¦   ¦       Guadalcanal
+¦   ¦       ¦   ¦   ¦       Guam
+¦   ¦       ¦   ¦   ¦       Honolulu
+¦   ¦       ¦   ¦   ¦       Johnston
+¦   ¦       ¦   ¦   ¦       Kanton
+¦   ¦       ¦   ¦   ¦       Kiritimati
+¦   ¦       ¦   ¦   ¦       Kosrae
+¦   ¦       ¦   ¦   ¦       Kwajalein
+¦   ¦       ¦   ¦   ¦       Majuro
+¦   ¦       ¦   ¦   ¦       Marquesas
+¦   ¦       ¦   ¦   ¦       Midway
+¦   ¦       ¦   ¦   ¦       Nauru
+¦   ¦       ¦   ¦   ¦       Niue
+¦   ¦       ¦   ¦   ¦       Norfolk
+¦   ¦       ¦   ¦   ¦       Noumea
+¦   ¦       ¦   ¦   ¦       Pago_Pago
+¦   ¦       ¦   ¦   ¦       Palau
+¦   ¦       ¦   ¦   ¦       Pitcairn
+¦   ¦       ¦   ¦   ¦       Pohnpei
+¦   ¦       ¦   ¦   ¦       Ponape
+¦   ¦       ¦   ¦   ¦       Port_Moresby
+¦   ¦       ¦   ¦   ¦       Rarotonga
+¦   ¦       ¦   ¦   ¦       Saipan
+¦   ¦       ¦   ¦   ¦       Samoa
+¦   ¦       ¦   ¦   ¦       Tahiti
+¦   ¦       ¦   ¦   ¦       Tarawa
+¦   ¦       ¦   ¦   ¦       Tongatapu
+¦   ¦       ¦   ¦   ¦       Truk
+¦   ¦       ¦   ¦   ¦       Wake
+¦   ¦       ¦   ¦   ¦       Wallis
+¦   ¦       ¦   ¦   ¦       Yap
+¦   ¦       ¦   ¦   ¦       
+¦   ¦       ¦   ¦   +---US
+¦   ¦       ¦   ¦           Alaska
+¦   ¦       ¦   ¦           Aleutian
+¦   ¦       ¦   ¦           Arizona
+¦   ¦       ¦   ¦           Central
+¦   ¦       ¦   ¦           East-Indiana
+¦   ¦       ¦   ¦           Eastern
+¦   ¦       ¦   ¦           Hawaii
+¦   ¦       ¦   ¦           Indiana-Starke
+¦   ¦       ¦   ¦           Michigan
+¦   ¦       ¦   ¦           Mountain
+¦   ¦       ¦   ¦           Pacific
+¦   ¦       ¦   ¦           Samoa
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦           lazy.cpython-311.pyc
+¦   ¦       ¦           reference.cpython-311.pyc
+¦   ¦       ¦           tzfile.cpython-311.pyc
+¦   ¦       ¦           tzinfo.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---pytz-2025.2.dist-info
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE.txt
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       zip-safe
+¦   ¦       ¦       
+¦   ¦       +---redis
+¦   ¦       ¦   ¦   backoff.py
+¦   ¦       ¦   ¦   cache.py
+¦   ¦       ¦   ¦   client.py
+¦   ¦       ¦   ¦   cluster.py
+¦   ¦       ¦   ¦   connection.py
+¦   ¦       ¦   ¦   crc.py
+¦   ¦       ¦   ¦   credentials.py
+¦   ¦       ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   lock.py
+¦   ¦       ¦   ¦   ocsp.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   retry.py
+¦   ¦       ¦   ¦   sentinel.py
+¦   ¦       ¦   ¦   typing.py
+¦   ¦       ¦   ¦   utils.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---asyncio
+¦   ¦       ¦   ¦   ¦   client.py
+¦   ¦       ¦   ¦   ¦   cluster.py
+¦   ¦       ¦   ¦   ¦   connection.py
+¦   ¦       ¦   ¦   ¦   lock.py
+¦   ¦       ¦   ¦   ¦   retry.py
+¦   ¦       ¦   ¦   ¦   sentinel.py
+¦   ¦       ¦   ¦   ¦   utils.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           client.cpython-311.pyc
+¦   ¦       ¦   ¦           cluster.cpython-311.pyc
+¦   ¦       ¦   ¦           connection.cpython-311.pyc
+¦   ¦       ¦   ¦           lock.cpython-311.pyc
+¦   ¦       ¦   ¦           retry.cpython-311.pyc
+¦   ¦       ¦   ¦           sentinel.cpython-311.pyc
+¦   ¦       ¦   ¦           utils.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---commands
+¦   ¦       ¦   ¦   ¦   cluster.py
+¦   ¦       ¦   ¦   ¦   core.py
+¦   ¦       ¦   ¦   ¦   helpers.py
+¦   ¦       ¦   ¦   ¦   redismodules.py
+¦   ¦       ¦   ¦   ¦   sentinel.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---bf
+¦   ¦       ¦   ¦   ¦   ¦   commands.py
+¦   ¦       ¦   ¦   ¦   ¦   info.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           commands.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           info.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---graph
+¦   ¦       ¦   ¦   ¦   ¦   commands.py
+¦   ¦       ¦   ¦   ¦   ¦   edge.py
+¦   ¦       ¦   ¦   ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   ¦   ¦   execution_plan.py
+¦   ¦       ¦   ¦   ¦   ¦   node.py
+¦   ¦       ¦   ¦   ¦   ¦   path.py
+¦   ¦       ¦   ¦   ¦   ¦   query_result.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           commands.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           edge.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           execution_plan.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           node.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           path.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           query_result.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---json
+¦   ¦       ¦   ¦   ¦   ¦   commands.py
+¦   ¦       ¦   ¦   ¦   ¦   decoders.py
+¦   ¦       ¦   ¦   ¦   ¦   path.py
+¦   ¦       ¦   ¦   ¦   ¦   _util.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           commands.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           decoders.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           path.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _util.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---search
+¦   ¦       ¦   ¦   ¦   ¦   aggregation.py
+¦   ¦       ¦   ¦   ¦   ¦   commands.py
+¦   ¦       ¦   ¦   ¦   ¦   document.py
+¦   ¦       ¦   ¦   ¦   ¦   field.py
+¦   ¦       ¦   ¦   ¦   ¦   indexDefinition.py
+¦   ¦       ¦   ¦   ¦   ¦   query.py
+¦   ¦       ¦   ¦   ¦   ¦   querystring.py
+¦   ¦       ¦   ¦   ¦   ¦   reducers.py
+¦   ¦       ¦   ¦   ¦   ¦   result.py
+¦   ¦       ¦   ¦   ¦   ¦   suggestion.py
+¦   ¦       ¦   ¦   ¦   ¦   _util.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           aggregation.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           commands.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           document.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           field.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           indexDefinition.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           query.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           querystring.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           reducers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           result.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           suggestion.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _util.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---timeseries
+¦   ¦       ¦   ¦   ¦   ¦   commands.py
+¦   ¦       ¦   ¦   ¦   ¦   info.py
+¦   ¦       ¦   ¦   ¦   ¦   utils.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           commands.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           info.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           utils.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           cluster.cpython-311.pyc
+¦   ¦       ¦   ¦           core.cpython-311.pyc
+¦   ¦       ¦   ¦           helpers.cpython-311.pyc
+¦   ¦       ¦   ¦           redismodules.cpython-311.pyc
+¦   ¦       ¦   ¦           sentinel.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---_parsers
+¦   ¦       ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   commands.py
+¦   ¦       ¦   ¦   ¦   encoders.py
+¦   ¦       ¦   ¦   ¦   helpers.py
+¦   ¦       ¦   ¦   ¦   hiredis.py
+¦   ¦       ¦   ¦   ¦   resp2.py
+¦   ¦       ¦   ¦   ¦   resp3.py
+¦   ¦       ¦   ¦   ¦   socket.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           base.cpython-311.pyc
+¦   ¦       ¦   ¦           commands.cpython-311.pyc
+¦   ¦       ¦   ¦           encoders.cpython-311.pyc
+¦   ¦       ¦   ¦           helpers.cpython-311.pyc
+¦   ¦       ¦   ¦           hiredis.cpython-311.pyc
+¦   ¦       ¦   ¦           resp2.cpython-311.pyc
+¦   ¦       ¦   ¦           resp3.cpython-311.pyc
+¦   ¦       ¦   ¦           socket.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           backoff.cpython-311.pyc
+¦   ¦       ¦           cache.cpython-311.pyc
+¦   ¦       ¦           client.cpython-311.pyc
+¦   ¦       ¦           cluster.cpython-311.pyc
+¦   ¦       ¦           connection.cpython-311.pyc
+¦   ¦       ¦           crc.cpython-311.pyc
+¦   ¦       ¦           credentials.cpython-311.pyc
+¦   ¦       ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦           lock.cpython-311.pyc
+¦   ¦       ¦           ocsp.cpython-311.pyc
+¦   ¦       ¦           retry.cpython-311.pyc
+¦   ¦       ¦           sentinel.cpython-311.pyc
+¦   ¦       ¦           typing.cpython-311.pyc
+¦   ¦       ¦           utils.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---redis-5.2.1.dist-info
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---setuptools
+¦   ¦       ¦   ¦   archive_util.py
+¦   ¦       ¦   ¦   build_meta.py
+¦   ¦       ¦   ¦   cli-32.exe
+¦   ¦       ¦   ¦   cli-64.exe
+¦   ¦       ¦   ¦   cli-arm64.exe
+¦   ¦       ¦   ¦   cli.exe
+¦   ¦       ¦   ¦   depends.py
+¦   ¦       ¦   ¦   dep_util.py
+¦   ¦       ¦   ¦   discovery.py
+¦   ¦       ¦   ¦   dist.py
+¦   ¦       ¦   ¦   errors.py
+¦   ¦       ¦   ¦   extension.py
+¦   ¦       ¦   ¦   glob.py
+¦   ¦       ¦   ¦   gui-32.exe
+¦   ¦       ¦   ¦   gui-64.exe
+¦   ¦       ¦   ¦   gui-arm64.exe
+¦   ¦       ¦   ¦   gui.exe
+¦   ¦       ¦   ¦   installer.py
+¦   ¦       ¦   ¦   launch.py
+¦   ¦       ¦   ¦   logging.py
+¦   ¦       ¦   ¦   monkey.py
+¦   ¦       ¦   ¦   msvc.py
+¦   ¦       ¦   ¦   namespaces.py
+¦   ¦       ¦   ¦   package_index.py
+¦   ¦       ¦   ¦   py34compat.py
+¦   ¦       ¦   ¦   sandbox.py
+¦   ¦       ¦   ¦   script (dev).tmpl
+¦   ¦       ¦   ¦   script.tmpl
+¦   ¦       ¦   ¦   unicode_utils.py
+¦   ¦       ¦   ¦   version.py
+¦   ¦       ¦   ¦   wheel.py
+¦   ¦       ¦   ¦   windows_support.py
+¦   ¦       ¦   ¦   _deprecation_warning.py
+¦   ¦       ¦   ¦   _entry_points.py
+¦   ¦       ¦   ¦   _imp.py
+¦   ¦       ¦   ¦   _importlib.py
+¦   ¦       ¦   ¦   _itertools.py
+¦   ¦       ¦   ¦   _path.py
+¦   ¦       ¦   ¦   _reqs.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---command
+¦   ¦       ¦   ¦   ¦   alias.py
+¦   ¦       ¦   ¦   ¦   bdist_egg.py
+¦   ¦       ¦   ¦   ¦   bdist_rpm.py
+¦   ¦       ¦   ¦   ¦   build.py
+¦   ¦       ¦   ¦   ¦   build_clib.py
+¦   ¦       ¦   ¦   ¦   build_ext.py
+¦   ¦       ¦   ¦   ¦   build_py.py
+¦   ¦       ¦   ¦   ¦   develop.py
+¦   ¦       ¦   ¦   ¦   dist_info.py
+¦   ¦       ¦   ¦   ¦   easy_install.py
+¦   ¦       ¦   ¦   ¦   editable_wheel.py
+¦   ¦       ¦   ¦   ¦   egg_info.py
+¦   ¦       ¦   ¦   ¦   install.py
+¦   ¦       ¦   ¦   ¦   install_egg_info.py
+¦   ¦       ¦   ¦   ¦   install_lib.py
+¦   ¦       ¦   ¦   ¦   install_scripts.py
+¦   ¦       ¦   ¦   ¦   launcher manifest.xml
+¦   ¦       ¦   ¦   ¦   py36compat.py
+¦   ¦       ¦   ¦   ¦   register.py
+¦   ¦       ¦   ¦   ¦   rotate.py
+¦   ¦       ¦   ¦   ¦   saveopts.py
+¦   ¦       ¦   ¦   ¦   sdist.py
+¦   ¦       ¦   ¦   ¦   setopt.py
+¦   ¦       ¦   ¦   ¦   test.py
+¦   ¦       ¦   ¦   ¦   upload.py
+¦   ¦       ¦   ¦   ¦   upload_docs.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           alias.cpython-311.pyc
+¦   ¦       ¦   ¦           bdist_egg.cpython-311.pyc
+¦   ¦       ¦   ¦           bdist_rpm.cpython-311.pyc
+¦   ¦       ¦   ¦           build.cpython-311.pyc
+¦   ¦       ¦   ¦           build_clib.cpython-311.pyc
+¦   ¦       ¦   ¦           build_ext.cpython-311.pyc
+¦   ¦       ¦   ¦           build_py.cpython-311.pyc
+¦   ¦       ¦   ¦           develop.cpython-311.pyc
+¦   ¦       ¦   ¦           dist_info.cpython-311.pyc
+¦   ¦       ¦   ¦           easy_install.cpython-311.pyc
+¦   ¦       ¦   ¦           editable_wheel.cpython-311.pyc
+¦   ¦       ¦   ¦           egg_info.cpython-311.pyc
+¦   ¦       ¦   ¦           install.cpython-311.pyc
+¦   ¦       ¦   ¦           install_egg_info.cpython-311.pyc
+¦   ¦       ¦   ¦           install_lib.cpython-311.pyc
+¦   ¦       ¦   ¦           install_scripts.cpython-311.pyc
+¦   ¦       ¦   ¦           py36compat.cpython-311.pyc
+¦   ¦       ¦   ¦           register.cpython-311.pyc
+¦   ¦       ¦   ¦           rotate.cpython-311.pyc
+¦   ¦       ¦   ¦           saveopts.cpython-311.pyc
+¦   ¦       ¦   ¦           sdist.cpython-311.pyc
+¦   ¦       ¦   ¦           setopt.cpython-311.pyc
+¦   ¦       ¦   ¦           test.cpython-311.pyc
+¦   ¦       ¦   ¦           upload.cpython-311.pyc
+¦   ¦       ¦   ¦           upload_docs.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---config
+¦   ¦       ¦   ¦   ¦   expand.py
+¦   ¦       ¦   ¦   ¦   pyprojecttoml.py
+¦   ¦       ¦   ¦   ¦   setupcfg.py
+¦   ¦       ¦   ¦   ¦   _apply_pyprojecttoml.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---_validate_pyproject
+¦   ¦       ¦   ¦   ¦   ¦   error_reporting.py
+¦   ¦       ¦   ¦   ¦   ¦   extra_validations.py
+¦   ¦       ¦   ¦   ¦   ¦   fastjsonschema_exceptions.py
+¦   ¦       ¦   ¦   ¦   ¦   fastjsonschema_validations.py
+¦   ¦       ¦   ¦   ¦   ¦   formats.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           error_reporting.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           extra_validations.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           fastjsonschema_exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           fastjsonschema_validations.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           formats.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           expand.cpython-311.pyc
+¦   ¦       ¦   ¦           pyprojecttoml.cpython-311.pyc
+¦   ¦       ¦   ¦           setupcfg.cpython-311.pyc
+¦   ¦       ¦   ¦           _apply_pyprojecttoml.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---extern
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---_distutils
+¦   ¦       ¦   ¦   ¦   archive_util.py
+¦   ¦       ¦   ¦   ¦   bcppcompiler.py
+¦   ¦       ¦   ¦   ¦   ccompiler.py
+¦   ¦       ¦   ¦   ¦   cmd.py
+¦   ¦       ¦   ¦   ¦   config.py
+¦   ¦       ¦   ¦   ¦   core.py
+¦   ¦       ¦   ¦   ¦   cygwinccompiler.py
+¦   ¦       ¦   ¦   ¦   debug.py
+¦   ¦       ¦   ¦   ¦   dep_util.py
+¦   ¦       ¦   ¦   ¦   dir_util.py
+¦   ¦       ¦   ¦   ¦   dist.py
+¦   ¦       ¦   ¦   ¦   errors.py
+¦   ¦       ¦   ¦   ¦   extension.py
+¦   ¦       ¦   ¦   ¦   fancy_getopt.py
+¦   ¦       ¦   ¦   ¦   filelist.py
+¦   ¦       ¦   ¦   ¦   file_util.py
+¦   ¦       ¦   ¦   ¦   log.py
+¦   ¦       ¦   ¦   ¦   msvc9compiler.py
+¦   ¦       ¦   ¦   ¦   msvccompiler.py
+¦   ¦       ¦   ¦   ¦   py38compat.py
+¦   ¦       ¦   ¦   ¦   py39compat.py
+¦   ¦       ¦   ¦   ¦   spawn.py
+¦   ¦       ¦   ¦   ¦   sysconfig.py
+¦   ¦       ¦   ¦   ¦   text_file.py
+¦   ¦       ¦   ¦   ¦   unixccompiler.py
+¦   ¦       ¦   ¦   ¦   util.py
+¦   ¦       ¦   ¦   ¦   version.py
+¦   ¦       ¦   ¦   ¦   versionpredicate.py
+¦   ¦       ¦   ¦   ¦   _collections.py
+¦   ¦       ¦   ¦   ¦   _functools.py
+¦   ¦       ¦   ¦   ¦   _macos_compat.py
+¦   ¦       ¦   ¦   ¦   _msvccompiler.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---command
+¦   ¦       ¦   ¦   ¦   ¦   bdist.py
+¦   ¦       ¦   ¦   ¦   ¦   bdist_dumb.py
+¦   ¦       ¦   ¦   ¦   ¦   bdist_rpm.py
+¦   ¦       ¦   ¦   ¦   ¦   build.py
+¦   ¦       ¦   ¦   ¦   ¦   build_clib.py
+¦   ¦       ¦   ¦   ¦   ¦   build_ext.py
+¦   ¦       ¦   ¦   ¦   ¦   build_py.py
+¦   ¦       ¦   ¦   ¦   ¦   build_scripts.py
+¦   ¦       ¦   ¦   ¦   ¦   check.py
+¦   ¦       ¦   ¦   ¦   ¦   clean.py
+¦   ¦       ¦   ¦   ¦   ¦   config.py
+¦   ¦       ¦   ¦   ¦   ¦   install.py
+¦   ¦       ¦   ¦   ¦   ¦   install_data.py
+¦   ¦       ¦   ¦   ¦   ¦   install_egg_info.py
+¦   ¦       ¦   ¦   ¦   ¦   install_headers.py
+¦   ¦       ¦   ¦   ¦   ¦   install_lib.py
+¦   ¦       ¦   ¦   ¦   ¦   install_scripts.py
+¦   ¦       ¦   ¦   ¦   ¦   py37compat.py
+¦   ¦       ¦   ¦   ¦   ¦   register.py
+¦   ¦       ¦   ¦   ¦   ¦   sdist.py
+¦   ¦       ¦   ¦   ¦   ¦   upload.py
+¦   ¦       ¦   ¦   ¦   ¦   _framework_compat.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           bdist.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           bdist_dumb.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           bdist_rpm.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           build.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           build_clib.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           build_ext.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           build_py.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           build_scripts.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           check.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           clean.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           config.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           install.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           install_data.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           install_egg_info.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           install_headers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           install_lib.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           install_scripts.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           py37compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           register.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           sdist.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           upload.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _framework_compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           archive_util.cpython-311.pyc
+¦   ¦       ¦   ¦           bcppcompiler.cpython-311.pyc
+¦   ¦       ¦   ¦           ccompiler.cpython-311.pyc
+¦   ¦       ¦   ¦           cmd.cpython-311.pyc
+¦   ¦       ¦   ¦           config.cpython-311.pyc
+¦   ¦       ¦   ¦           core.cpython-311.pyc
+¦   ¦       ¦   ¦           cygwinccompiler.cpython-311.pyc
+¦   ¦       ¦   ¦           debug.cpython-311.pyc
+¦   ¦       ¦   ¦           dep_util.cpython-311.pyc
+¦   ¦       ¦   ¦           dir_util.cpython-311.pyc
+¦   ¦       ¦   ¦           dist.cpython-311.pyc
+¦   ¦       ¦   ¦           errors.cpython-311.pyc
+¦   ¦       ¦   ¦           extension.cpython-311.pyc
+¦   ¦       ¦   ¦           fancy_getopt.cpython-311.pyc
+¦   ¦       ¦   ¦           filelist.cpython-311.pyc
+¦   ¦       ¦   ¦           file_util.cpython-311.pyc
+¦   ¦       ¦   ¦           log.cpython-311.pyc
+¦   ¦       ¦   ¦           msvc9compiler.cpython-311.pyc
+¦   ¦       ¦   ¦           msvccompiler.cpython-311.pyc
+¦   ¦       ¦   ¦           py38compat.cpython-311.pyc
+¦   ¦       ¦   ¦           py39compat.cpython-311.pyc
+¦   ¦       ¦   ¦           spawn.cpython-311.pyc
+¦   ¦       ¦   ¦           sysconfig.cpython-311.pyc
+¦   ¦       ¦   ¦           text_file.cpython-311.pyc
+¦   ¦       ¦   ¦           unixccompiler.cpython-311.pyc
+¦   ¦       ¦   ¦           util.cpython-311.pyc
+¦   ¦       ¦   ¦           version.cpython-311.pyc
+¦   ¦       ¦   ¦           versionpredicate.cpython-311.pyc
+¦   ¦       ¦   ¦           _collections.cpython-311.pyc
+¦   ¦       ¦   ¦           _functools.cpython-311.pyc
+¦   ¦       ¦   ¦           _macos_compat.cpython-311.pyc
+¦   ¦       ¦   ¦           _msvccompiler.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---_vendor
+¦   ¦       ¦   ¦   ¦   ordered_set.py
+¦   ¦       ¦   ¦   ¦   typing_extensions.py
+¦   ¦       ¦   ¦   ¦   zipp.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---importlib_metadata
+¦   ¦       ¦   ¦   ¦   ¦   _adapters.py
+¦   ¦       ¦   ¦   ¦   ¦   _collections.py
+¦   ¦       ¦   ¦   ¦   ¦   _compat.py
+¦   ¦       ¦   ¦   ¦   ¦   _functools.py
+¦   ¦       ¦   ¦   ¦   ¦   _itertools.py
+¦   ¦       ¦   ¦   ¦   ¦   _meta.py
+¦   ¦       ¦   ¦   ¦   ¦   _text.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           _adapters.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _collections.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _functools.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _itertools.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _meta.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _text.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---importlib_resources
+¦   ¦       ¦   ¦   ¦   ¦   abc.py
+¦   ¦       ¦   ¦   ¦   ¦   readers.py
+¦   ¦       ¦   ¦   ¦   ¦   simple.py
+¦   ¦       ¦   ¦   ¦   ¦   _adapters.py
+¦   ¦       ¦   ¦   ¦   ¦   _common.py
+¦   ¦       ¦   ¦   ¦   ¦   _compat.py
+¦   ¦       ¦   ¦   ¦   ¦   _itertools.py
+¦   ¦       ¦   ¦   ¦   ¦   _legacy.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           abc.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           readers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           simple.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _adapters.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _common.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _compat.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _itertools.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _legacy.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---jaraco
+¦   ¦       ¦   ¦   ¦   ¦   context.py
+¦   ¦       ¦   ¦   ¦   ¦   functools.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---text
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           context.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           functools.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---more_itertools
+¦   ¦       ¦   ¦   ¦   ¦   more.py
+¦   ¦       ¦   ¦   ¦   ¦   recipes.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           more.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           recipes.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---packaging
+¦   ¦       ¦   ¦   ¦   ¦   markers.py
+¦   ¦       ¦   ¦   ¦   ¦   requirements.py
+¦   ¦       ¦   ¦   ¦   ¦   specifiers.py
+¦   ¦       ¦   ¦   ¦   ¦   tags.py
+¦   ¦       ¦   ¦   ¦   ¦   utils.py
+¦   ¦       ¦   ¦   ¦   ¦   version.py
+¦   ¦       ¦   ¦   ¦   ¦   _manylinux.py
+¦   ¦       ¦   ¦   ¦   ¦   _musllinux.py
+¦   ¦       ¦   ¦   ¦   ¦   _structures.py
+¦   ¦       ¦   ¦   ¦   ¦   __about__.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           markers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           requirements.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           specifiers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           tags.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           utils.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           version.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _manylinux.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _musllinux.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _structures.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __about__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---pyparsing
+¦   ¦       ¦   ¦   ¦   ¦   actions.py
+¦   ¦       ¦   ¦   ¦   ¦   common.py
+¦   ¦       ¦   ¦   ¦   ¦   core.py
+¦   ¦       ¦   ¦   ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   ¦   ¦   helpers.py
+¦   ¦       ¦   ¦   ¦   ¦   results.py
+¦   ¦       ¦   ¦   ¦   ¦   testing.py
+¦   ¦       ¦   ¦   ¦   ¦   unicode.py
+¦   ¦       ¦   ¦   ¦   ¦   util.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---diagram
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           actions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           common.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           core.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           exceptions.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           helpers.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           results.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           testing.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           unicode.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           util.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---tomli
+¦   ¦       ¦   ¦   ¦   ¦   _parser.py
+¦   ¦       ¦   ¦   ¦   ¦   _re.py
+¦   ¦       ¦   ¦   ¦   ¦   _types.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           _parser.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _re.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           _types.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           ordered_set.cpython-311.pyc
+¦   ¦       ¦   ¦           typing_extensions.cpython-311.pyc
+¦   ¦       ¦   ¦           zipp.cpython-311.pyc
+¦   ¦       ¦   ¦           __init__.cpython-311.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           archive_util.cpython-311.pyc
+¦   ¦       ¦           build_meta.cpython-311.pyc
+¦   ¦       ¦           depends.cpython-311.pyc
+¦   ¦       ¦           dep_util.cpython-311.pyc
+¦   ¦       ¦           discovery.cpython-311.pyc
+¦   ¦       ¦           dist.cpython-311.pyc
+¦   ¦       ¦           errors.cpython-311.pyc
+¦   ¦       ¦           extension.cpython-311.pyc
+¦   ¦       ¦           glob.cpython-311.pyc
+¦   ¦       ¦           installer.cpython-311.pyc
+¦   ¦       ¦           launch.cpython-311.pyc
+¦   ¦       ¦           logging.cpython-311.pyc
+¦   ¦       ¦           monkey.cpython-311.pyc
+¦   ¦       ¦           msvc.cpython-311.pyc
+¦   ¦       ¦           namespaces.cpython-311.pyc
+¦   ¦       ¦           package_index.cpython-311.pyc
+¦   ¦       ¦           py34compat.cpython-311.pyc
+¦   ¦       ¦           sandbox.cpython-311.pyc
+¦   ¦       ¦           unicode_utils.cpython-311.pyc
+¦   ¦       ¦           version.cpython-311.pyc
+¦   ¦       ¦           wheel.cpython-311.pyc
+¦   ¦       ¦           windows_support.cpython-311.pyc
+¦   ¦       ¦           _deprecation_warning.cpython-311.pyc
+¦   ¦       ¦           _entry_points.cpython-311.pyc
+¦   ¦       ¦           _imp.cpython-311.pyc
+¦   ¦       ¦           _importlib.cpython-311.pyc
+¦   ¦       ¦           _itertools.cpython-311.pyc
+¦   ¦       ¦           _path.cpython-311.pyc
+¦   ¦       ¦           _reqs.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---setuptools-65.5.0.dist-info
+¦   ¦       ¦       entry_points.txt
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       REQUESTED
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---yarl
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   _parse.py
+¦   ¦       ¦   ¦   _path.py
+¦   ¦       ¦   ¦   _query.py
+¦   ¦       ¦   ¦   _quoters.py
+¦   ¦       ¦   ¦   _quoting.py
+¦   ¦       ¦   ¦   _quoting_c.cp311-win_amd64.pyd
+¦   ¦       ¦   ¦   _quoting_c.pyx
+¦   ¦       ¦   ¦   _quoting_py.py
+¦   ¦       ¦   ¦   _url.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           _parse.cpython-311.pyc
+¦   ¦       ¦           _path.cpython-311.pyc
+¦   ¦       ¦           _query.cpython-311.pyc
+¦   ¦       ¦           _quoters.cpython-311.pyc
+¦   ¦       ¦           _quoting.cpython-311.pyc
+¦   ¦       ¦           _quoting_py.cpython-311.pyc
+¦   ¦       ¦           _url.cpython-311.pyc
+¦   ¦       ¦           __init__.cpython-311.pyc
+¦   ¦       ¦           
+¦   ¦       +---yarl-1.20.0.dist-info
+¦   ¦       ¦   ¦   INSTALLER
+¦   ¦       ¦   ¦   METADATA
+¦   ¦       ¦   ¦   RECORD
+¦   ¦       ¦   ¦   top_level.txt
+¦   ¦       ¦   ¦   WHEEL
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---licenses
+¦   ¦       ¦           LICENSE
+¦   ¦       ¦           NOTICE
+¦   ¦       ¦           
+¦   ¦       +---_distutils_hack
+¦   ¦           ¦   override.py
+¦   ¦           ¦   __init__.py
+¦   ¦           ¦   
+¦   ¦           +---__pycache__
+¦   ¦                   override.cpython-311.pyc
+¦   ¦                   __init__.cpython-311.pyc
+¦   ¦                   
+¦   +---Scripts
+¦           activate
+¦           activate.bat
+¦           Activate.ps1
+¦           deactivate.bat
+¦           dotenv.exe
+¦           normalizer.exe
+¦           pip.exe
+¦           pip3.10.exe
+¦           pip3.11.exe
+¦           pip3.exe
+¦           pybabel.exe
+¦           python.exe
+¦           pythonw.exe
+¦           
++---__pycache__
+        constants.cpython-311.pyc
+        main.cpython-311.pyc
+        

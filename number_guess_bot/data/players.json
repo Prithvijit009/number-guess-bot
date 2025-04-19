@@ -1,0 +1,16 @@
+{
+    "6458465484": {
+        "games_played": 10,
+        "wins": 10,
+        "current_number": 98,
+        "in_game": false,
+        "points": 53,
+        "attempts": 6,
+        "hint_used": true,
+        "achievements": [
+            "Earn 10 Points",
+            "Win 5 Games"
+        ],
+        "coins": 34
+    }
+}
