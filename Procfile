@@ -1,1 +1,2 @@
-web: python number_guess_bot/main.py
+python bot/main.py
+
