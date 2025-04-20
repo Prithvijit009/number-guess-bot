@@ -1,1 +1,1 @@
-worker: python main.py
+web: python number_guess_bot/main.py
